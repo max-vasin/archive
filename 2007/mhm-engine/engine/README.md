@@ -1,0 +1,1 @@
+Ancicent game engine. It uses DirectX 9.0 with very first shaders versions. We don't had mind about modularity and create games (multiple) directly in enigne source folder. There's no chance to make it work again (event compile).
