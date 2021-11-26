@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+    <Name>defence at all cost</Name>
+    <Preferences></Preferences>
+    <Items>
+        <Textures>
+            <Preferences></Preferences>
+            <Items>
+                <Texture>
+                    <Name>test texture</Name>
+                </Texture>
+                <Texture>
+                    <Name>spider</Name>
+                </Texture>
+                <Texture>
+                    <Name>astronaut</Name>
+                </Texture>
+                <Texture>
+                    <Name>test texture</Name>
+                </Texture>
+                <Texture>
+                    <Name>spider</Name>
+                </Texture>
+                <Texture>
+                    <Name>astronaut</Name>
+                </Texture>
+                <Texture>
+                    <Name>test texture</Name>
+                </Texture>
+                <Texture>
+                    <Name>spider</Name>
+                </Texture>
+                <Texture>
+                    <Name>astronaut</Name>
+                </Texture>
+                <Texture>
+                    <Name>test texture</Name>
+                </Texture>
+                <Texture>
+                    <Name>spider</Name>
+                </Texture>
+                <Texture>
+                    <Name>astronaut</Name>
+                </Texture>
+                <Texture>
+                    <Name>test texture</Name>
+                </Texture>
+                <Texture>
+                    <Name>spider</Name>
+                </Texture>
+                <Texture>
+                    <Name>astronaut</Name>
+                </Texture>
+                <Texture>
+                    <Name>test texture</Name>
+                </Texture>
+                <Texture>
+                    <Name>spider</Name>
+                </Texture>
+                <Texture>
+                    <Name>astronaut</Name>
+                </Texture>
+                <Texture>
+                    <Name>test texture</Name>
+                </Texture>
+                <Texture>
+                    <Name>spider</Name>
+                </Texture>
+                <Texture>
+                    <Name>astronaut</Name>
+                </Texture>
+                <Texture>
+                    <Name>test texture</Name>
+                </Texture>
+                <Texture>
+                    <Name>spider</Name>
+                </Texture>
+                <Texture>
+                    <Name>astronaut</Name>
+                </Texture>
+                <Texture>
+                    <Name>test texture</Name>
+                </Texture>
+                <Texture>
+                    <Name>spider</Name>
+                </Texture>
+                <Texture>
+                    <Name>astronaut</Name>
+                </Texture>
+                <Texture>
+                    <Name>test texture</Name>
+                </Texture>
+                <Texture>
+                    <Name>spider</Name>
+                </Texture>
+                <Texture>
+                    <Name>astronaut</Name>
+                </Texture>
+                <Texture>
+                    <Name>test texture</Name>
+                </Texture>
+                <Texture>
+                    <Name>spider</Name>
+                </Texture>
+                <Texture>
+                    <Name>astronaut</Name>
+                </Texture>
+                <Texture>
+                    <Name>test texture</Name>
+                </Texture>
+                <Texture>
+                    <Name>spider</Name>
+                </Texture>
+                <Texture>
+                    <Name>astronaut</Name>
+                </Texture>
+                <Texture>
+                    <Name>test texture</Name>
+                </Texture>
+                <Texture>
+                    <Name>spider</Name>
+                </Texture>
+                <Texture>
+                    <Name>astronaut</Name>
+                </Texture>
+                <Texture>
+                    <Name>test texture</Name>
+                </Texture>
+                <Texture>
+                    <Name>spider</Name>
+                </Texture>
+                <Texture>
+                    <Name>astronaut</Name>
+                </Texture>
+                <Texture>
+                    <Name>test texture</Name>
+                </Texture>
+                <Texture>
+                    <Name>spider</Name>
+                </Texture>
+                <Texture>
+                    <Name>astronaut</Name>
+                </Texture>
+                <Texture>
+                    <Name>test texture</Name>
+                </Texture>
+                <Texture>
+                    <Name>spider</Name>
+                </Texture>
+                <Texture>
+                    <Name>astronaut</Name>
+                </Texture>
+                <Texture>
+                    <Name>test texture</Name>
+                </Texture>
+                <Texture>
+                    <Name>spider</Name>
+                </Texture>
+                <Texture>
+                    <Name>astronaut</Name>
+                </Texture>
+                <Texture>
+                    <Name>test texture</Name>
+                </Texture>
+                <Texture>
+                    <Name>spider</Name>
+                </Texture>
+                <Texture>
+                    <Name>astronaut</Name>
+                </Texture>
+                <Texture>
+                    <Name>test texture</Name>
+                </Texture>
+                <Texture>
+                    <Name>spider</Name>
+                </Texture>
+                <Texture>
+                    <Name>astronaut</Name>
+                </Texture>
+                <Texture>
+                    <Name>test texture</Name>
+                </Texture>
+                <Texture>
+                    <Name>spider</Name>
+                </Texture>
+                <Texture>
+                    <Name>astronaut</Name>
+                </Texture>
+            </Items>
+        </Textures>
+        <Shapes>
+            <Preferences></Preferences>
+            <Items>
+                <Shape>
+                    <Name>most shape</Name>
+                </Shape>
+            </Items>
+        </Shapes>
+        <Sprites>
+            <Preferences></Preferences>
+            <Items>
+                <Sprite>
+                    <Name>lazy sprite</Name>
+                </Sprite>
+            </Items>
+        </Sprites>
+        <Fonts>
+            <Preferences></Preferences>
+            <Items>
+                <Font>
+                    <Name>true font</Name>
+                </Font>
+            </Items>
+        </Fonts>
+    </Items>
+</Project>

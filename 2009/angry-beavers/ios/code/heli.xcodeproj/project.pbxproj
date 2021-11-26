@@ -1,0 +1,819 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28EC4C5911D54ECE0027AA9F /* RenderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28EC4C5711D54ECE0027AA9F /* RenderViewController.m */; };
+		28FD14FE0DC6FC130079059D /* RenderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 28FD14FD0DC6FC130079059D /* RenderView.m */; };
+		28FD15000DC6FC520079059D /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FD14FF0DC6FC520079059D /* OpenGLES.framework */; };
+		28FD15080DC6FC5B0079059D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FD15070DC6FC5B0079059D /* QuartzCore.framework */; };
+		AA0FA1731339194700896585 /* GameState.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0FA1721339194700896585 /* GameState.m */; };
+		AA0FA17513391E7900896585 /* sprites in Resources */ = {isa = PBXBuildFile; fileRef = AA0FA17413391E7900896585 /* sprites */; };
+		AA1338BB137A981F004C3F5F /* Array2D.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1338BA137A981F004C3F5F /* Array2D.m */; };
+		AA1338BF137AD282004C3F5F /* OriTilemap.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1338BE137AD282004C3F5F /* OriTilemap.m */; };
+		AA1338C2137AD97A004C3F5F /* OriTilemapNode.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1338C1137AD97A004C3F5F /* OriTilemapNode.m */; };
+		AA61EDA81338E8F00078E05D /* OriRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = AA61EDA71338E8F00078E05D /* OriRenderer.m */; };
+		AA837F1913AA2891006A9B14 /* OriMapStaticRenderable.m in Sources */ = {isa = PBXBuildFile; fileRef = AA837F1813AA2891006A9B14 /* OriMapStaticRenderable.m */; };
+		AA83C461133B845900F291E3 /* OriScene.m in Sources */ = {isa = PBXBuildFile; fileRef = AA83C460133B845900F291E3 /* OriScene.m */; };
+		AA83C464133B858C00F291E3 /* OriSceneObject.m in Sources */ = {isa = PBXBuildFile; fileRef = AA83C463133B858C00F291E3 /* OriSceneObject.m */; };
+		AA83C469133B98DA00F291E3 /* OriSpriteRenderable.m in Sources */ = {isa = PBXBuildFile; fileRef = AA83C468133B98DA00F291E3 /* OriSpriteRenderable.m */; };
+		AA83C473133BC59500F291E3 /* OriTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = AA83C472133BC59500F291E3 /* OriTimer.m */; };
+		AA878218139FDADA00836473 /* OriFont.m in Sources */ = {isa = PBXBuildFile; fileRef = AA878217139FDADA00836473 /* OriFont.m */; };
+		AA880B1C1339EAEF00A93303 /* OriXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = AA880B1B1339EAEF00A93303 /* OriXMLNode.m */; };
+		AA880B20133A1A9800A93303 /* OriSpriteAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = AA880B1F133A1A9800A93303 /* OriSpriteAnimation.m */; };
+		AA880B23133A1AB600A93303 /* OriSpriteAnimationFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = AA880B22133A1AB600A93303 /* OriSpriteAnimationFrame.m */; };
+		AA880B27133A642800A93303 /* OriResource.m in Sources */ = {isa = PBXBuildFile; fileRef = AA880B26133A642100A93303 /* OriResource.m */; };
+		AA8A10E2135DA5210057B686 /* GameHeliObject.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8A10E1135DA5210057B686 /* GameHeliObject.m */; };
+		AA8B620A137A853C00312870 /* tilesets in Resources */ = {isa = PBXBuildFile; fileRef = AA8B6209137A853C00312870 /* tilesets */; };
+		AA8B6212137A867600312870 /* tilemaps in Resources */ = {isa = PBXBuildFile; fileRef = AA8B6211137A867600312870 /* tilemaps */; };
+		AA8B621D137A8E9200312870 /* OriTileset.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8B621C137A8E9200312870 /* OriTileset.m */; };
+		AA8B6220137A93B500312870 /* OriTile.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8B621F137A93B500312870 /* OriTile.m */; };
+		AA8C075B13585EFA00C384AB /* OriMultiSpriteKey.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8C075A13585EFA00C384AB /* OriMultiSpriteKey.m */; };
+		AA8C075F135865DB00C384AB /* NSMutableArrayExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8C075E135865DB00C384AB /* NSMutableArrayExtension.m */; };
+		AA8C29E013AA17A100F34C0F /* OriMultiSpriteContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8C29DF13AA17A100F34C0F /* OriMultiSpriteContainer.m */; };
+		AA8C29E313AA27D300F34C0F /* OriMapStaticContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8C29E213AA27D300F34C0F /* OriMapStaticContainer.m */; };
+		AA8D9BBC13A0186600783371 /* OriStringDrawer.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8D9BBB13A0186600783371 /* OriStringDrawer.m */; };
+		AA94A2D5139E4C1D0089AB2E /* OriHexGridContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = AA94A2D4139E4C1D0089AB2E /* OriHexGridContainer.m */; };
+		AA94A2D9139E4C940089AB2E /* OriHexGridCellRenderable.m in Sources */ = {isa = PBXBuildFile; fileRef = AA94A2D8139E4C940089AB2E /* OriHexGridCellRenderable.m */; };
+		AA97038D135892FC003B1BB3 /* OriSpriteAnimationPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = AA97038C135892FC003B1BB3 /* OriSpriteAnimationPoint.m */; };
+		AAA0FB5D1337B27900BD762A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAA0FB5C1337B27900BD762A /* CoreGraphics.framework */; };
+		AAA0FC021337C6B900BD762A /* OriResourceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AAA0FC011337C6B900BD762A /* OriResourceManager.m */; };
+		AAA0FC071337C79400BD762A /* OriTexture.m in Sources */ = {isa = PBXBuildFile; fileRef = AAA0FC061337C79400BD762A /* OriTexture.m */; };
+		AAA0FC0A1337C85200BD762A /* OriSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = AAA0FC091337C85200BD762A /* OriSprite.m */; };
+		AAA0FC4C1337E8FC00BD762A /* textures in Resources */ = {isa = PBXBuildFile; fileRef = AAA0FC4A1337E8FC00BD762A /* textures */; };
+		AAA13E17137C54A00013B3AA /* OriTilemapStatic.m in Sources */ = {isa = PBXBuildFile; fileRef = AAA13E16137C54A00013B3AA /* OriTilemapStatic.m */; };
+		AAA28AFA138EC31400CB2BC5 /* OriTimeSampler.m in Sources */ = {isa = PBXBuildFile; fileRef = AAA28AF9138EC31400CB2BC5 /* OriTimeSampler.m */; };
+		AAA9D247135DAA720069EC2D /* RedneckHelicopter.m in Sources */ = {isa = PBXBuildFile; fileRef = AAA9D246135DAA720069EC2D /* RedneckHelicopter.m */; };
+		AAA9D251135DBD680069EC2D /* Vector2.m in Sources */ = {isa = PBXBuildFile; fileRef = AAA9D250135DBD680069EC2D /* Vector2.m */; };
+		AAA9D254135DBDA20069EC2D /* Matrix.m in Sources */ = {isa = PBXBuildFile; fileRef = AAA9D253135DBDA20069EC2D /* Matrix.m */; };
+		AAA9D258135DCB040069EC2D /* OriServer.m in Sources */ = {isa = PBXBuildFile; fileRef = AAA9D257135DCB040069EC2D /* OriServer.m */; };
+		AAA9D25B135DCB2C0069EC2D /* OriServerCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = AAA9D25A135DCB2C0069EC2D /* OriServerCommand.m */; };
+		AAAE65F313549A78008A5F76 /* multisprites in Resources */ = {isa = PBXBuildFile; fileRef = AAAE65F213549A78008A5F76 /* multisprites */; };
+		AAAE65F713549D47008A5F76 /* OriMultiSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = AAAE65F613549D47008A5F76 /* OriMultiSprite.m */; };
+		AAAE65FA1354A223008A5F76 /* OriMultiSpriteRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = AAAE65F91354A222008A5F76 /* OriMultiSpriteRecord.m */; };
+		AABCD7B81393A828003787B0 /* IntegerArray2D.m in Sources */ = {isa = PBXBuildFile; fileRef = AABCD7B71393A828003787B0 /* IntegerArray2D.m */; };
+		AABCD7C713942111003787B0 /* GameLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = AABCD7C613942111003787B0 /* GameLevel.m */; };
+		AABCD7CA139421D8003787B0 /* GameHexGrid.m in Sources */ = {isa = PBXBuildFile; fileRef = AABCD7C9139421D7003787B0 /* GameHexGrid.m */; };
+		AABCD7CD13942249003787B0 /* GameHexGridCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AABCD7CC13942248003787B0 /* GameHexGridCell.m */; };
+		AADD476713707F2500C1FF56 /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = AADD476613707F2500C1FF56 /* MainWindow-iPad.xib */; };
+		AAE9DDAF139909C600A93115 /* OriShapeDrawer.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE9DDAE139909C600A93115 /* OriShapeDrawer.m */; };
+		AAE9DDB2139914FE00A93115 /* OriTilemapContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE9DDB1139914FE00A93115 /* OriTilemapContainer.m */; };
+		AAE9DDB513991E3600A93115 /* OriTileRenderable.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE9DDB413991E3600A93115 /* OriTileRenderable.m */; };
+		AAFEC6EF13B3661700D4706C /* GameAIController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAFEC6EE13B3661700D4706C /* GameAIController.m */; };
+		AAFEC6F213B3662C00D4706C /* GameUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = AAFEC6F113B3662C00D4706C /* GameUnit.m */; };
+		AAFEC6F513B3709E00D4706C /* GameHexBindedUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = AAFEC6F413B3709E00D4706C /* GameHexBindedUnit.m */; };
+		AAFEC6F813B3730000D4706C /* GameBeaverUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = AAFEC6F713B372FF00D4706C /* GameBeaverUnit.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* heli.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = heli.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28EC4C5611D54ECE0027AA9F /* RenderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RenderViewController.h; sourceTree = "<group>"; };
+		28EC4C5711D54ECE0027AA9F /* RenderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RenderViewController.m; sourceTree = "<group>"; };
+		28FD14FC0DC6FC130079059D /* RenderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RenderView.h; sourceTree = "<group>"; };
+		28FD14FD0DC6FC130079059D /* RenderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RenderView.m; sourceTree = "<group>"; };
+		28FD14FF0DC6FC520079059D /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		28FD15070DC6FC5B0079059D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ../main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* heli_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = heli_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* heli-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "heli-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		AA0FA1711339194700896585 /* GameState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameState.h; sourceTree = "<group>"; };
+		AA0FA1721339194700896585 /* GameState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameState.m; sourceTree = "<group>"; };
+		AA0FA17413391E7900896585 /* sprites */ = {isa = PBXFileReference; lastKnownFileType = folder; path = sprites; sourceTree = "<group>"; };
+		AA1338B9137A981F004C3F5F /* Array2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Array2D.h; path = ../../../../../../../Users/mozg/Developer/ios/heli/code/Classes/Array2D.h; sourceTree = "<group>"; };
+		AA1338BA137A981F004C3F5F /* Array2D.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Array2D.m; path = ../../../../../../../Users/mozg/Developer/ios/heli/code/Classes/Array2D.m; sourceTree = "<group>"; };
+		AA1338BD137AD282004C3F5F /* OriTilemap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OriTilemap.h; path = ../../../../../../../Users/mozg/Developer/ios/heli/code/Classes/OriTilemap.h; sourceTree = "<group>"; };
+		AA1338BE137AD282004C3F5F /* OriTilemap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OriTilemap.m; path = ../../../../../../../Users/mozg/Developer/ios/heli/code/Classes/OriTilemap.m; sourceTree = "<group>"; };
+		AA1338C0137AD97A004C3F5F /* OriTilemapNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OriTilemapNode.h; path = ../../../../../../../Users/mozg/Developer/ios/heli/code/Classes/OriTilemapNode.h; sourceTree = "<group>"; };
+		AA1338C1137AD97A004C3F5F /* OriTilemapNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OriTilemapNode.m; path = ../../../../../../../Users/mozg/Developer/ios/heli/code/Classes/OriTilemapNode.m; sourceTree = "<group>"; };
+		AA61EDA41338E65A0078E05D /* OriBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OriBase.h; sourceTree = "<group>"; };
+		AA61EDA61338E8F00078E05D /* OriRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OriRenderer.h; sourceTree = "<group>"; };
+		AA61EDA71338E8F00078E05D /* OriRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OriRenderer.m; sourceTree = "<group>"; };
+		AA837F1713AA2891006A9B14 /* OriMapStaticRenderable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OriMapStaticRenderable.h; path = ../../../../../../../Users/mozg/Developer/ios/heli/code/Classes/OriMapStaticRenderable.h; sourceTree = "<group>"; };
+		AA837F1813AA2891006A9B14 /* OriMapStaticRenderable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OriMapStaticRenderable.m; path = ../../../../../../../Users/mozg/Developer/ios/heli/code/Classes/OriMapStaticRenderable.m; sourceTree = "<group>"; };
+		AA83C45F133B845900F291E3 /* OriScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OriScene.h; sourceTree = "<group>"; };
+		AA83C460133B845900F291E3 /* OriScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OriScene.m; sourceTree = "<group>"; };
+		AA83C462133B858C00F291E3 /* OriSceneObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OriSceneObject.h; sourceTree = "<group>"; };
+		AA83C463133B858C00F291E3 /* OriSceneObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OriSceneObject.m; sourceTree = "<group>"; };
+		AA83C467133B98DA00F291E3 /* OriSpriteRenderable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OriSpriteRenderable.h; sourceTree = "<group>"; };
+		AA83C468133B98DA00F291E3 /* OriSpriteRenderable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OriSpriteRenderable.m; sourceTree = "<group>"; };
+		AA83C471133BC59500F291E3 /* OriTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OriTimer.h; sourceTree = "<group>"; };
+		AA83C472133BC59500F291E3 /* OriTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OriTimer.m; sourceTree = "<group>"; };
+		AA83C474133BD19E00F291E3 /* OriTimerEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OriTimerEntry.h; sourceTree = "<group>"; };
+		AA878216139FDADA00836473 /* OriFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OriFont.h; path = ../../../../../../../Users/mozg/Developer/ios/heli/code/Classes/OriFont.h; sourceTree = "<group>"; };
+		AA878217139FDADA00836473 /* OriFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OriFont.m; path = ../../../../../../../Users/mozg/Developer/ios/heli/code/Classes/OriFont.m; sourceTree = "<group>"; };
+		AA880B1A1339EAEF00A93303 /* OriXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OriXMLNode.h; sourceTree = "<group>"; };
+		AA880B1B1339EAEF00A93303 /* OriXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OriXMLNode.m; sourceTree = "<group>"; };
+		AA880B1E133A1A9800A93303 /* OriSpriteAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OriSpriteAnimation.h; sourceTree = "<group>"; };
+		AA880B1F133A1A9800A93303 /* OriSpriteAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OriSpriteAnimation.m; sourceTree = "<group>"; };
+		AA880B21133A1AB600A93303 /* OriSpriteAnimationFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OriSpriteAnimationFrame.h; sourceTree = "<group>"; };
+		AA880B22133A1AB600A93303 /* OriSpriteAnimationFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OriSpriteAnimationFrame.m; sourceTree = "<group>"; };
+		AA880B25133A641D00A93303 /* OriResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OriResource.h; sourceTree = "<group>"; };
+		AA880B26133A642100A93303 /* OriResource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OriResource.m; sourceTree = "<group>"; };
+		AA8A10E0135DA5210057B686 /* GameHeliObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameHeliObject.h; path = /Users/mozg/Developer/ios/heli/code/Classes/GameHeliObject.h; sourceTree = "<absolute>"; };
+		AA8A10E1135DA5210057B686 /* GameHeliObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameHeliObject.m; path = /Users/mozg/Developer/ios/heli/code/Classes/GameHeliObject.m; sourceTree = "<absolute>"; };
+		AA8B6209137A853C00312870 /* tilesets */ = {isa = PBXFileReference; lastKnownFileType = folder; name = tilesets; path = ../../../../../../Users/mozg/Developer/ios/heli/code/tilesets; sourceTree = "<group>"; };
+		AA8B6211137A867600312870 /* tilemaps */ = {isa = PBXFileReference; lastKnownFileType = folder; name = tilemaps; path = ../../../../../../Users/mozg/Developer/ios/heli/code/tilemaps; sourceTree = "<group>"; };
+		AA8B621B137A8E9200312870 /* OriTileset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OriTileset.h; path = ../../../../../../../Users/mozg/Developer/ios/heli/code/Classes/OriTileset.h; sourceTree = "<group>"; };
+		AA8B621C137A8E9200312870 /* OriTileset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OriTileset.m; path = ../../../../../../../Users/mozg/Developer/ios/heli/code/Classes/OriTileset.m; sourceTree = "<group>"; };
+		AA8B621E137A93B500312870 /* OriTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OriTile.h; path = ../../../../../../../Users/mozg/Developer/ios/heli/code/Classes/OriTile.h; sourceTree = "<group>"; };
+		AA8B621F137A93B500312870 /* OriTile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OriTile.m; path = ../../../../../../../Users/mozg/Developer/ios/heli/code/Classes/OriTile.m; sourceTree = "<group>"; };
+		AA8C075913585EFA00C384AB /* OriMultiSpriteKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OriMultiSpriteKey.h; path = ../../../../../../../Users/mozg/Developer/ios/heli/code/Classes/OriMultiSpriteKey.h; sourceTree = "<group>"; };
+		AA8C075A13585EFA00C384AB /* OriMultiSpriteKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OriMultiSpriteKey.m; path = ../../../../../../../Users/mozg/Developer/ios/heli/code/Classes/OriMultiSpriteKey.m; sourceTree = "<group>"; };
+		AA8C075D135865DB00C384AB /* NSMutableArrayExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSMutableArrayExtension.h; path = ../../../../../../../Users/mozg/Developer/ios/heli/code/Classes/NSMutableArrayExtension.h; sourceTree = "<group>"; };
+		AA8C075E135865DB00C384AB /* NSMutableArrayExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSMutableArrayExtension.m; path = ../../../../../../../Users/mozg/Developer/ios/heli/code/Classes/NSMutableArrayExtension.m; sourceTree = "<group>"; };
+		AA8C29DE13AA17A100F34C0F /* OriMultiSpriteContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OriMultiSpriteContainer.h; path = ../../../../../../../Users/mozg/Developer/ios/heli/code/Classes/OriMultiSpriteContainer.h; sourceTree = "<group>"; };
+		AA8C29DF13AA17A100F34C0F /* OriMultiSpriteContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OriMultiSpriteContainer.m; path = ../../../../../../../Users/mozg/Developer/ios/heli/code/Classes/OriMultiSpriteContainer.m; sourceTree = "<group>"; };
+		AA8C29E113AA27D300F34C0F /* OriMapStaticContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OriMapStaticContainer.h; path = ../../../../../../../Users/mozg/Developer/ios/heli/code/Classes/OriMapStaticContainer.h; sourceTree = "<group>"; };
+		AA8C29E213AA27D300F34C0F /* OriMapStaticContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OriMapStaticContainer.m; path = ../../../../../../../Users/mozg/Developer/ios/heli/code/Classes/OriMapStaticContainer.m; sourceTree = "<group>"; };
+		AA8D9BBA13A0186600783371 /* OriStringDrawer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OriStringDrawer.h; path = ../../../../../../../Users/mozg/Developer/ios/heli/code/Classes/OriStringDrawer.h; sourceTree = "<group>"; };
+		AA8D9BBB13A0186600783371 /* OriStringDrawer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OriStringDrawer.m; path = ../../../../../../../Users/mozg/Developer/ios/heli/code/Classes/OriStringDrawer.m; sourceTree = "<group>"; };
+		AA94A2D3139E4C1C0089AB2E /* OriHexGridContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OriHexGridContainer.h; path = /Users/mozg/Developer/ios/heli/code/Classes/OriHexGridContainer.h; sourceTree = "<absolute>"; };
+		AA94A2D4139E4C1D0089AB2E /* OriHexGridContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OriHexGridContainer.m; path = /Users/mozg/Developer/ios/heli/code/Classes/OriHexGridContainer.m; sourceTree = "<absolute>"; };
+		AA94A2D7139E4C940089AB2E /* OriHexGridCellRenderable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OriHexGridCellRenderable.h; path = ../../../../../../../Users/mozg/Developer/ios/heli/code/Classes/OriHexGridCellRenderable.h; sourceTree = "<group>"; };
+		AA94A2D8139E4C940089AB2E /* OriHexGridCellRenderable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OriHexGridCellRenderable.m; path = ../../../../../../../Users/mozg/Developer/ios/heli/code/Classes/OriHexGridCellRenderable.m; sourceTree = "<group>"; };
+		AA97038B135892FC003B1BB3 /* OriSpriteAnimationPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OriSpriteAnimationPoint.h; path = ../../../../../../../Users/mozg/Developer/ios/heli/code/Classes/OriSpriteAnimationPoint.h; sourceTree = "<group>"; };
+		AA97038C135892FC003B1BB3 /* OriSpriteAnimationPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OriSpriteAnimationPoint.m; path = ../../../../../../../Users/mozg/Developer/ios/heli/code/Classes/OriSpriteAnimationPoint.m; sourceTree = "<group>"; };
+		AAA0FB5C1337B27900BD762A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AAA0FC001337C6B900BD762A /* OriResourceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OriResourceManager.h; sourceTree = "<group>"; };
+		AAA0FC011337C6B900BD762A /* OriResourceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OriResourceManager.m; sourceTree = "<group>"; };
+		AAA0FC051337C79400BD762A /* OriTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OriTexture.h; sourceTree = "<group>"; };
+		AAA0FC061337C79400BD762A /* OriTexture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OriTexture.m; sourceTree = "<group>"; };
+		AAA0FC081337C85200BD762A /* OriSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OriSprite.h; sourceTree = "<group>"; };
+		AAA0FC091337C85200BD762A /* OriSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OriSprite.m; sourceTree = "<group>"; };
+		AAA0FC4A1337E8FC00BD762A /* textures */ = {isa = PBXFileReference; lastKnownFileType = folder; path = textures; sourceTree = "<group>"; };
+		AAA13E15137C54A00013B3AA /* OriTilemapStatic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OriTilemapStatic.h; path = ../../../../../../../Users/mozg/Developer/ios/heli/code/Classes/OriTilemapStatic.h; sourceTree = "<group>"; };
+		AAA13E16137C54A00013B3AA /* OriTilemapStatic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OriTilemapStatic.m; path = ../../../../../../../Users/mozg/Developer/ios/heli/code/Classes/OriTilemapStatic.m; sourceTree = "<group>"; };
+		AAA28AF8138EC31400CB2BC5 /* OriTimeSampler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OriTimeSampler.h; path = ../../../../../../../Users/mozg/Developer/ios/heli/code/Classes/OriTimeSampler.h; sourceTree = "<group>"; };
+		AAA28AF9138EC31400CB2BC5 /* OriTimeSampler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OriTimeSampler.m; path = ../../../../../../../Users/mozg/Developer/ios/heli/code/Classes/OriTimeSampler.m; sourceTree = "<group>"; };
+		AAA9D245135DAA720069EC2D /* RedneckHelicopter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RedneckHelicopter.h; path = ../../../../../../../Users/mozg/Developer/ios/heli/code/Classes/RedneckHelicopter.h; sourceTree = "<group>"; };
+		AAA9D246135DAA720069EC2D /* RedneckHelicopter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RedneckHelicopter.m; path = ../../../../../../../Users/mozg/Developer/ios/heli/code/Classes/RedneckHelicopter.m; sourceTree = "<group>"; };
+		AAA9D24F135DBD680069EC2D /* Vector2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Vector2.h; path = ../../../../../../../Users/mozg/Developer/ios/heli/code/Classes/Vector2.h; sourceTree = "<group>"; };
+		AAA9D250135DBD680069EC2D /* Vector2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Vector2.m; path = ../../../../../../../Users/mozg/Developer/ios/heli/code/Classes/Vector2.m; sourceTree = "<group>"; };
+		AAA9D252135DBDA20069EC2D /* Matrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Matrix.h; path = ../../../../../../../Users/mozg/Developer/ios/heli/code/Classes/Matrix.h; sourceTree = "<group>"; };
+		AAA9D253135DBDA20069EC2D /* Matrix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Matrix.m; path = ../../../../../../../Users/mozg/Developer/ios/heli/code/Classes/Matrix.m; sourceTree = "<group>"; };
+		AAA9D256135DCB040069EC2D /* OriServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OriServer.h; path = ../../../../../../../Users/mozg/Developer/ios/heli/code/Classes/OriServer.h; sourceTree = "<group>"; };
+		AAA9D257135DCB040069EC2D /* OriServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OriServer.m; path = ../../../../../../../Users/mozg/Developer/ios/heli/code/Classes/OriServer.m; sourceTree = "<group>"; };
+		AAA9D259135DCB2C0069EC2D /* OriServerCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OriServerCommand.h; path = ../../../../../../../Users/mozg/Developer/ios/heli/code/Classes/OriServerCommand.h; sourceTree = "<group>"; };
+		AAA9D25A135DCB2C0069EC2D /* OriServerCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OriServerCommand.m; path = ../../../../../../../Users/mozg/Developer/ios/heli/code/Classes/OriServerCommand.m; sourceTree = "<group>"; };
+		AAA9D272135DDFE20069EC2D /* OriServerResponder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OriServerResponder.h; path = ../../../../../../../Users/mozg/Developer/ios/heli/code/Classes/OriServerResponder.h; sourceTree = "<group>"; };
+		AAAE65F213549A78008A5F76 /* multisprites */ = {isa = PBXFileReference; lastKnownFileType = folder; name = multisprites; path = ../../../../../../Users/mozg/Developer/ios/heli/code/multisprites; sourceTree = "<group>"; };
+		AAAE65F513549D47008A5F76 /* OriMultiSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OriMultiSprite.h; path = ../../../../../../../Users/mozg/Developer/ios/heli/code/Classes/OriMultiSprite.h; sourceTree = "<group>"; };
+		AAAE65F613549D47008A5F76 /* OriMultiSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OriMultiSprite.m; path = ../../../../../../../Users/mozg/Developer/ios/heli/code/Classes/OriMultiSprite.m; sourceTree = "<group>"; };
+		AAAE65F81354A222008A5F76 /* OriMultiSpriteRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OriMultiSpriteRecord.h; path = ../../../../../../../Users/mozg/Developer/ios/heli/code/Classes/OriMultiSpriteRecord.h; sourceTree = "<group>"; };
+		AAAE65F91354A222008A5F76 /* OriMultiSpriteRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OriMultiSpriteRecord.m; path = ../../../../../../../Users/mozg/Developer/ios/heli/code/Classes/OriMultiSpriteRecord.m; sourceTree = "<group>"; };
+		AABCD7B61393A828003787B0 /* IntegerArray2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IntegerArray2D.h; path = ../../../../../../../Users/mozg/Developer/ios/heli/code/Classes/IntegerArray2D.h; sourceTree = "<group>"; };
+		AABCD7B71393A828003787B0 /* IntegerArray2D.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IntegerArray2D.m; path = ../../../../../../../Users/mozg/Developer/ios/heli/code/Classes/IntegerArray2D.m; sourceTree = "<group>"; };
+		AABCD7C513942111003787B0 /* GameLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameLevel.h; path = ../../../../../../../Users/mozg/Developer/ios/heli/code/Classes/GameLevel.h; sourceTree = "<group>"; };
+		AABCD7C613942111003787B0 /* GameLevel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameLevel.m; path = ../../../../../../../Users/mozg/Developer/ios/heli/code/Classes/GameLevel.m; sourceTree = "<group>"; };
+		AABCD7C8139421D7003787B0 /* GameHexGrid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameHexGrid.h; path = ../../../../../../../Users/mozg/Developer/ios/heli/code/Classes/GameHexGrid.h; sourceTree = "<group>"; };
+		AABCD7C9139421D7003787B0 /* GameHexGrid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameHexGrid.m; path = ../../../../../../../Users/mozg/Developer/ios/heli/code/Classes/GameHexGrid.m; sourceTree = "<group>"; };
+		AABCD7CB13942247003787B0 /* GameHexGridCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameHexGridCell.h; path = ../../../../../../../Users/mozg/Developer/ios/heli/code/Classes/GameHexGridCell.h; sourceTree = "<group>"; };
+		AABCD7CC13942248003787B0 /* GameHexGridCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameHexGridCell.m; path = ../../../../../../../Users/mozg/Developer/ios/heli/code/Classes/GameHexGridCell.m; sourceTree = "<group>"; };
+		AADD476613707F2500C1FF56 /* MainWindow-iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "MainWindow-iPad.xib"; path = "iPad/MainWindow-iPad.xib"; sourceTree = "<group>"; };
+		AAE9DDAD139909C600A93115 /* OriShapeDrawer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OriShapeDrawer.h; path = /Users/mozg/Developer/ios/heli/code/Classes/OriShapeDrawer.h; sourceTree = "<absolute>"; };
+		AAE9DDAE139909C600A93115 /* OriShapeDrawer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OriShapeDrawer.m; path = /Users/mozg/Developer/ios/heli/code/Classes/OriShapeDrawer.m; sourceTree = "<absolute>"; };
+		AAE9DDB0139914FE00A93115 /* OriTilemapContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OriTilemapContainer.h; path = ../../../../../../../Users/mozg/Developer/ios/heli/code/Classes/OriTilemapContainer.h; sourceTree = "<group>"; };
+		AAE9DDB1139914FE00A93115 /* OriTilemapContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OriTilemapContainer.m; path = ../../../../../../../Users/mozg/Developer/ios/heli/code/Classes/OriTilemapContainer.m; sourceTree = "<group>"; };
+		AAE9DDB313991E3500A93115 /* OriTileRenderable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OriTileRenderable.h; path = ../../../../../../../Users/mozg/Developer/ios/heli/code/Classes/OriTileRenderable.h; sourceTree = "<group>"; };
+		AAE9DDB413991E3600A93115 /* OriTileRenderable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OriTileRenderable.m; path = ../../../../../../../Users/mozg/Developer/ios/heli/code/Classes/OriTileRenderable.m; sourceTree = "<group>"; };
+		AAFEC6ED13B3661700D4706C /* GameAIController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameAIController.h; path = ../../../../../../../Users/mozg/Developer/ios/heli/code/Classes/GameAIController.h; sourceTree = "<group>"; };
+		AAFEC6EE13B3661700D4706C /* GameAIController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameAIController.m; path = ../../../../../../../Users/mozg/Developer/ios/heli/code/Classes/GameAIController.m; sourceTree = "<group>"; };
+		AAFEC6F013B3662C00D4706C /* GameUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameUnit.h; path = ../../../../../../../Users/mozg/Developer/ios/heli/code/Classes/GameUnit.h; sourceTree = "<group>"; };
+		AAFEC6F113B3662C00D4706C /* GameUnit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameUnit.m; path = ../../../../../../../Users/mozg/Developer/ios/heli/code/Classes/GameUnit.m; sourceTree = "<group>"; };
+		AAFEC6F313B3709E00D4706C /* GameHexBindedUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameHexBindedUnit.h; path = ../../../../../../../Users/mozg/Developer/ios/heli/code/Classes/GameHexBindedUnit.h; sourceTree = "<group>"; };
+		AAFEC6F413B3709E00D4706C /* GameHexBindedUnit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameHexBindedUnit.m; path = ../../../../../../../Users/mozg/Developer/ios/heli/code/Classes/GameHexBindedUnit.m; sourceTree = "<group>"; };
+		AAFEC6F613B372FF00D4706C /* GameBeaverUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameBeaverUnit.h; path = ../../../../../../../Users/mozg/Developer/ios/heli/code/Classes/GameBeaverUnit.h; sourceTree = "<group>"; };
+		AAFEC6F713B372FF00D4706C /* GameBeaverUnit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameBeaverUnit.m; path = ../../../../../../../Users/mozg/Developer/ios/heli/code/Classes/GameBeaverUnit.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				28FD15000DC6FC520079059D /* OpenGLES.framework in Frameworks */,
+				28FD15080DC6FC5B0079059D /* QuartzCore.framework in Frameworks */,
+				AAA0FB5D1337B27900BD762A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AA1338B5137A96E0004C3F5F /* Utils */,
+				AAA9D255135DCA7B0069EC2D /* Server */,
+				AAA9D24E135DBD560069EC2D /* Math */,
+				AA8A10DF135DA4CA0057B686 /* Game */,
+				AA8C075C135865B900C384AB /* Extensions */,
+				AA83C470133BC57700F291E3 /* Timer */,
+				AA83C45E133B843F00F291E3 /* Scene */,
+				AA04759913394D0F00A6A145 /* XML */,
+				AA0FA1701339192600896585 /* States */,
+				AA61EDA91338F3870078E05D /* Application */,
+				AA61EDA51338E8CE0078E05D /* Renderer */,
+				AAA0FC031337C75900BD762A /* Resources */,
+				AA61EDA41338E65A0078E05D /* OriBase.h */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* heli.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				AADD476513707F2100C1FF56 /* iPad */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* heli_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AA8B6211137A867600312870 /* tilemaps */,
+				AA8B6209137A853C00312870 /* tilesets */,
+				AAAE65F213549A78008A5F76 /* multisprites */,
+				AA0FA17413391E7900896585 /* sprites */,
+				AAA0FC4A1337E8FC00BD762A /* textures */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* heli-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AAA0FB5C1337B27900BD762A /* CoreGraphics.framework */,
+				28FD15070DC6FC5B0079059D /* QuartzCore.framework */,
+				28FD14FF0DC6FC520079059D /* OpenGLES.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA04759913394D0F00A6A145 /* XML */ = {
+			isa = PBXGroup;
+			children = (
+				AA880B1A1339EAEF00A93303 /* OriXMLNode.h */,
+				AA880B1B1339EAEF00A93303 /* OriXMLNode.m */,
+			);
+			name = XML;
+			sourceTree = "<group>";
+		};
+		AA0FA1701339192600896585 /* States */ = {
+			isa = PBXGroup;
+			children = (
+				AA0FA1711339194700896585 /* GameState.h */,
+				AA0FA1721339194700896585 /* GameState.m */,
+			);
+			name = States;
+			sourceTree = "<group>";
+		};
+		AA1338B5137A96E0004C3F5F /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				AA8D9BB913A0184700783371 /* Graphics */,
+				AA1338B9137A981F004C3F5F /* Array2D.h */,
+				AA1338BA137A981F004C3F5F /* Array2D.m */,
+				AAA28AF8138EC31400CB2BC5 /* OriTimeSampler.h */,
+				AAA28AF9138EC31400CB2BC5 /* OriTimeSampler.m */,
+				AABCD7B61393A828003787B0 /* IntegerArray2D.h */,
+				AABCD7B71393A828003787B0 /* IntegerArray2D.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		AA1338BC137AC285004C3F5F /* Tilemap */ = {
+			isa = PBXGroup;
+			children = (
+				AA1338C0137AD97A004C3F5F /* OriTilemapNode.h */,
+				AA1338C1137AD97A004C3F5F /* OriTilemapNode.m */,
+				AAA13E15137C54A00013B3AA /* OriTilemapStatic.h */,
+				AAA13E16137C54A00013B3AA /* OriTilemapStatic.m */,
+				AA1338BD137AD282004C3F5F /* OriTilemap.h */,
+				AA1338BE137AD282004C3F5F /* OriTilemap.m */,
+			);
+			name = Tilemap;
+			sourceTree = "<group>";
+		};
+		AA61EDA51338E8CE0078E05D /* Renderer */ = {
+			isa = PBXGroup;
+			children = (
+				28FD14FC0DC6FC130079059D /* RenderView.h */,
+				28FD14FD0DC6FC130079059D /* RenderView.m */,
+				28EC4C5611D54ECE0027AA9F /* RenderViewController.h */,
+				28EC4C5711D54ECE0027AA9F /* RenderViewController.m */,
+				AA61EDA61338E8F00078E05D /* OriRenderer.h */,
+				AA61EDA71338E8F00078E05D /* OriRenderer.m */,
+			);
+			name = Renderer;
+			sourceTree = "<group>";
+		};
+		AA61EDA91338F3870078E05D /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* AppDelegate.h */,
+				1D3623250D0F684500981E51 /* AppDelegate.m */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		AA83C45E133B843F00F291E3 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				AA94A2D6139E4C260089AB2E /* Hex grid */,
+				AA8B6219137A8E2700312870 /* Tilemap */,
+				AA83C466133B989A00F291E3 /* Sprites */,
+				AA83C465133B989100F291E3 /* Base */,
+			);
+			name = Scene;
+			sourceTree = "<group>";
+		};
+		AA83C465133B989100F291E3 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				AA83C45F133B845900F291E3 /* OriScene.h */,
+				AA83C460133B845900F291E3 /* OriScene.m */,
+				AA83C462133B858C00F291E3 /* OriSceneObject.h */,
+				AA83C463133B858C00F291E3 /* OriSceneObject.m */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		AA83C466133B989A00F291E3 /* Sprites */ = {
+			isa = PBXGroup;
+			children = (
+				AA8C29DE13AA17A100F34C0F /* OriMultiSpriteContainer.h */,
+				AA8C29DF13AA17A100F34C0F /* OriMultiSpriteContainer.m */,
+				AA83C467133B98DA00F291E3 /* OriSpriteRenderable.h */,
+				AA83C468133B98DA00F291E3 /* OriSpriteRenderable.m */,
+			);
+			name = Sprites;
+			sourceTree = "<group>";
+		};
+		AA83C470133BC57700F291E3 /* Timer */ = {
+			isa = PBXGroup;
+			children = (
+				AA83C471133BC59500F291E3 /* OriTimer.h */,
+				AA83C472133BC59500F291E3 /* OriTimer.m */,
+				AA83C474133BD19E00F291E3 /* OriTimerEntry.h */,
+			);
+			name = Timer;
+			sourceTree = "<group>";
+		};
+		AA878215139FDAC000836473 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				AA878216139FDADA00836473 /* OriFont.h */,
+				AA878217139FDADA00836473 /* OriFont.m */,
+			);
+			name = Font;
+			sourceTree = "<group>";
+		};
+		AA880B1D133A1A7500A93303 /* Sprites */ = {
+			isa = PBXGroup;
+			children = (
+				AAA0FC081337C85200BD762A /* OriSprite.h */,
+				AAA0FC091337C85200BD762A /* OriSprite.m */,
+				AA880B1E133A1A9800A93303 /* OriSpriteAnimation.h */,
+				AA880B1F133A1A9800A93303 /* OriSpriteAnimation.m */,
+				AA880B21133A1AB600A93303 /* OriSpriteAnimationFrame.h */,
+				AA880B22133A1AB600A93303 /* OriSpriteAnimationFrame.m */,
+				AA97038B135892FC003B1BB3 /* OriSpriteAnimationPoint.h */,
+				AA97038C135892FC003B1BB3 /* OriSpriteAnimationPoint.m */,
+			);
+			name = Sprites;
+			sourceTree = "<group>";
+		};
+		AA880B24133A3BD000A93303 /* Textures */ = {
+			isa = PBXGroup;
+			children = (
+				AAA0FC051337C79400BD762A /* OriTexture.h */,
+				AAA0FC061337C79400BD762A /* OriTexture.m */,
+			);
+			name = Textures;
+			sourceTree = "<group>";
+		};
+		AA8A10DF135DA4CA0057B686 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				AAFEC6EC13B365FC00D4706C /* AI */,
+				AAA9D244135DAA360069EC2D /* Helicopter */,
+				AABCD7C513942111003787B0 /* GameLevel.h */,
+				AABCD7C613942111003787B0 /* GameLevel.m */,
+				AABCD7C8139421D7003787B0 /* GameHexGrid.h */,
+				AABCD7C9139421D7003787B0 /* GameHexGrid.m */,
+				AABCD7CB13942247003787B0 /* GameHexGridCell.h */,
+				AABCD7CC13942248003787B0 /* GameHexGridCell.m */,
+			);
+			name = Game;
+			sourceTree = "<group>";
+		};
+		AA8B6219137A8E2700312870 /* Tilemap */ = {
+			isa = PBXGroup;
+			children = (
+				AAE9DDB0139914FE00A93115 /* OriTilemapContainer.h */,
+				AAE9DDB1139914FE00A93115 /* OriTilemapContainer.m */,
+				AAE9DDB313991E3500A93115 /* OriTileRenderable.h */,
+				AAE9DDB413991E3600A93115 /* OriTileRenderable.m */,
+				AA8C29E113AA27D300F34C0F /* OriMapStaticContainer.h */,
+				AA8C29E213AA27D300F34C0F /* OriMapStaticContainer.m */,
+				AA837F1713AA2891006A9B14 /* OriMapStaticRenderable.h */,
+				AA837F1813AA2891006A9B14 /* OriMapStaticRenderable.m */,
+			);
+			name = Tilemap;
+			sourceTree = "<group>";
+		};
+		AA8B621A137A8E5700312870 /* Tileset */ = {
+			isa = PBXGroup;
+			children = (
+				AA8B621E137A93B500312870 /* OriTile.h */,
+				AA8B621F137A93B500312870 /* OriTile.m */,
+				AA8B621B137A8E9200312870 /* OriTileset.h */,
+				AA8B621C137A8E9200312870 /* OriTileset.m */,
+			);
+			name = Tileset;
+			sourceTree = "<group>";
+		};
+		AA8C075C135865B900C384AB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AA8C075D135865DB00C384AB /* NSMutableArrayExtension.h */,
+				AA8C075E135865DB00C384AB /* NSMutableArrayExtension.m */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		AA8D9BB913A0184700783371 /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				AAE9DDAD139909C600A93115 /* OriShapeDrawer.h */,
+				AAE9DDAE139909C600A93115 /* OriShapeDrawer.m */,
+				AA8D9BBA13A0186600783371 /* OriStringDrawer.h */,
+				AA8D9BBB13A0186600783371 /* OriStringDrawer.m */,
+			);
+			name = Graphics;
+			sourceTree = "<group>";
+		};
+		AA94A2D6139E4C260089AB2E /* Hex grid */ = {
+			isa = PBXGroup;
+			children = (
+				AA94A2D3139E4C1C0089AB2E /* OriHexGridContainer.h */,
+				AA94A2D4139E4C1D0089AB2E /* OriHexGridContainer.m */,
+				AA94A2D7139E4C940089AB2E /* OriHexGridCellRenderable.h */,
+				AA94A2D8139E4C940089AB2E /* OriHexGridCellRenderable.m */,
+			);
+			name = "Hex grid";
+			sourceTree = "<group>";
+		};
+		AAA0FC031337C75900BD762A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AA878215139FDAC000836473 /* Font */,
+				AA1338BC137AC285004C3F5F /* Tilemap */,
+				AA8B621A137A8E5700312870 /* Tileset */,
+				AAAE65F413549D0F008A5F76 /* MultiSprites */,
+				AA880B24133A3BD000A93303 /* Textures */,
+				AA880B1D133A1A7500A93303 /* Sprites */,
+				AAA0FC001337C6B900BD762A /* OriResourceManager.h */,
+				AAA0FC011337C6B900BD762A /* OriResourceManager.m */,
+				AA880B25133A641D00A93303 /* OriResource.h */,
+				AA880B26133A642100A93303 /* OriResource.m */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		AAA9D244135DAA360069EC2D /* Helicopter */ = {
+			isa = PBXGroup;
+			children = (
+				AA8A10E0135DA5210057B686 /* GameHeliObject.h */,
+				AA8A10E1135DA5210057B686 /* GameHeliObject.m */,
+				AAA9D245135DAA720069EC2D /* RedneckHelicopter.h */,
+				AAA9D246135DAA720069EC2D /* RedneckHelicopter.m */,
+			);
+			name = Helicopter;
+			sourceTree = "<group>";
+		};
+		AAA9D24E135DBD560069EC2D /* Math */ = {
+			isa = PBXGroup;
+			children = (
+				AAA9D252135DBDA20069EC2D /* Matrix.h */,
+				AAA9D253135DBDA20069EC2D /* Matrix.m */,
+				AAA9D24F135DBD680069EC2D /* Vector2.h */,
+				AAA9D250135DBD680069EC2D /* Vector2.m */,
+			);
+			name = Math;
+			sourceTree = "<group>";
+		};
+		AAA9D255135DCA7B0069EC2D /* Server */ = {
+			isa = PBXGroup;
+			children = (
+				AAA9D256135DCB040069EC2D /* OriServer.h */,
+				AAA9D257135DCB040069EC2D /* OriServer.m */,
+				AAA9D259135DCB2C0069EC2D /* OriServerCommand.h */,
+				AAA9D25A135DCB2C0069EC2D /* OriServerCommand.m */,
+				AAA9D272135DDFE20069EC2D /* OriServerResponder.h */,
+			);
+			name = Server;
+			sourceTree = "<group>";
+		};
+		AAAE65F413549D0F008A5F76 /* MultiSprites */ = {
+			isa = PBXGroup;
+			children = (
+				AAAE65F513549D47008A5F76 /* OriMultiSprite.h */,
+				AAAE65F613549D47008A5F76 /* OriMultiSprite.m */,
+				AAAE65F81354A222008A5F76 /* OriMultiSpriteRecord.h */,
+				AAAE65F91354A222008A5F76 /* OriMultiSpriteRecord.m */,
+				AA8C075913585EFA00C384AB /* OriMultiSpriteKey.h */,
+				AA8C075A13585EFA00C384AB /* OriMultiSpriteKey.m */,
+			);
+			name = MultiSprites;
+			sourceTree = "<group>";
+		};
+		AADD476513707F2100C1FF56 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				AADD476613707F2500C1FF56 /* MainWindow-iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		AAFEC6EC13B365FC00D4706C /* AI */ = {
+			isa = PBXGroup;
+			children = (
+				AAFEC6ED13B3661700D4706C /* GameAIController.h */,
+				AAFEC6EE13B3661700D4706C /* GameAIController.m */,
+				AAFEC6F013B3662C00D4706C /* GameUnit.h */,
+				AAFEC6F113B3662C00D4706C /* GameUnit.m */,
+				AAFEC6F313B3709E00D4706C /* GameHexBindedUnit.h */,
+				AAFEC6F413B3709E00D4706C /* GameHexBindedUnit.m */,
+				AAFEC6F613B372FF00D4706C /* GameBeaverUnit.h */,
+				AAFEC6F713B372FF00D4706C /* GameBeaverUnit.m */,
+			);
+			name = AI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* heli */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "heli" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = heli;
+			productName = heli;
+			productReference = 1D6058910D05DD3D006BFB54 /* heli.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Origin;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "heli" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* heli */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				AAA0FC4C1337E8FC00BD762A /* textures in Resources */,
+				AA0FA17513391E7900896585 /* sprites in Resources */,
+				AAAE65F313549A78008A5F76 /* multisprites in Resources */,
+				AADD476713707F2500C1FF56 /* MainWindow-iPad.xib in Resources */,
+				AA8B620A137A853C00312870 /* tilesets in Resources */,
+				AA8B6212137A867600312870 /* tilemaps in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
+				28FD14FE0DC6FC130079059D /* RenderView.m in Sources */,
+				28EC4C5911D54ECE0027AA9F /* RenderViewController.m in Sources */,
+				AAA0FC021337C6B900BD762A /* OriResourceManager.m in Sources */,
+				AAA0FC071337C79400BD762A /* OriTexture.m in Sources */,
+				AAA0FC0A1337C85200BD762A /* OriSprite.m in Sources */,
+				AA61EDA81338E8F00078E05D /* OriRenderer.m in Sources */,
+				AA0FA1731339194700896585 /* GameState.m in Sources */,
+				AA880B1C1339EAEF00A93303 /* OriXMLNode.m in Sources */,
+				AA880B20133A1A9800A93303 /* OriSpriteAnimation.m in Sources */,
+				AA880B23133A1AB600A93303 /* OriSpriteAnimationFrame.m in Sources */,
+				AA880B27133A642800A93303 /* OriResource.m in Sources */,
+				AA83C461133B845900F291E3 /* OriScene.m in Sources */,
+				AA83C464133B858C00F291E3 /* OriSceneObject.m in Sources */,
+				AA83C469133B98DA00F291E3 /* OriSpriteRenderable.m in Sources */,
+				AA83C473133BC59500F291E3 /* OriTimer.m in Sources */,
+				AAAE65F713549D47008A5F76 /* OriMultiSprite.m in Sources */,
+				AAAE65FA1354A223008A5F76 /* OriMultiSpriteRecord.m in Sources */,
+				AA8C075B13585EFA00C384AB /* OriMultiSpriteKey.m in Sources */,
+				AA8C075F135865DB00C384AB /* NSMutableArrayExtension.m in Sources */,
+				AA97038D135892FC003B1BB3 /* OriSpriteAnimationPoint.m in Sources */,
+				AA8A10E2135DA5210057B686 /* GameHeliObject.m in Sources */,
+				AAA9D247135DAA720069EC2D /* RedneckHelicopter.m in Sources */,
+				AAA9D251135DBD680069EC2D /* Vector2.m in Sources */,
+				AAA9D254135DBDA20069EC2D /* Matrix.m in Sources */,
+				AAA9D258135DCB040069EC2D /* OriServer.m in Sources */,
+				AAA9D25B135DCB2C0069EC2D /* OriServerCommand.m in Sources */,
+				AA8B621D137A8E9200312870 /* OriTileset.m in Sources */,
+				AA8B6220137A93B500312870 /* OriTile.m in Sources */,
+				AA1338BB137A981F004C3F5F /* Array2D.m in Sources */,
+				AA1338BF137AD282004C3F5F /* OriTilemap.m in Sources */,
+				AA1338C2137AD97A004C3F5F /* OriTilemapNode.m in Sources */,
+				AAA13E17137C54A00013B3AA /* OriTilemapStatic.m in Sources */,
+				AAA28AFA138EC31400CB2BC5 /* OriTimeSampler.m in Sources */,
+				AABCD7B81393A828003787B0 /* IntegerArray2D.m in Sources */,
+				AABCD7C713942111003787B0 /* GameLevel.m in Sources */,
+				AABCD7CA139421D8003787B0 /* GameHexGrid.m in Sources */,
+				AABCD7CD13942249003787B0 /* GameHexGridCell.m in Sources */,
+				AAE9DDAF139909C600A93115 /* OriShapeDrawer.m in Sources */,
+				AAE9DDB2139914FE00A93115 /* OriTilemapContainer.m in Sources */,
+				AAE9DDB513991E3600A93115 /* OriTileRenderable.m in Sources */,
+				AA94A2D5139E4C1D0089AB2E /* OriHexGridContainer.m in Sources */,
+				AA94A2D9139E4C940089AB2E /* OriHexGridCellRenderable.m in Sources */,
+				AA878218139FDADA00836473 /* OriFont.m in Sources */,
+				AA8D9BBC13A0186600783371 /* OriStringDrawer.m in Sources */,
+				AA8C29E013AA17A100F34C0F /* OriMultiSpriteContainer.m in Sources */,
+				AA8C29E313AA27D300F34C0F /* OriMapStaticContainer.m in Sources */,
+				AA837F1913AA2891006A9B14 /* OriMapStaticRenderable.m in Sources */,
+				AAFEC6EF13B3661700D4706C /* GameAIController.m in Sources */,
+				AAFEC6F213B3662C00D4706C /* GameUnit.m in Sources */,
+				AAFEC6F513B3709E00D4706C /* GameHexBindedUnit.m in Sources */,
+				AAFEC6F813B3730000D4706C /* GameBeaverUnit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = heli_Prefix.pch;
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "heli-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = heli;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = debug;
+		};
+		1D6058950D05DD3E006BFB54 /* release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = heli_Prefix.pch;
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "heli-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = heli;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = release;
+		};
+		C01FCF4F08A954540054247B /* debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Max Vasin (MRVP5WVKLU)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PROVISIONING_PROFILE = "09148B77-04C0-42F8-B344-6F2F534F442B";
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = debug;
+		};
+		C01FCF5008A954540054247B /* release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Max Vasin";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "C481AB6B-3B92-4F28-9812-C406A9471213";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+			};
+			name = release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "heli" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* debug */,
+				1D6058950D05DD3E006BFB54 /* release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "heli" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* debug */,
+				C01FCF5008A954540054247B /* release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

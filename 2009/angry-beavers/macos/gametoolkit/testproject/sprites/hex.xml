@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Sprite>
+    <Name>hex</Name>
+    <Texture>service</Texture>
+    <AnimationCount>1</AnimationCount>
+    <Animations>
+        <Animation>
+            <Name>main</Name>
+            <AnimationSpeed>0</AnimationSpeed>
+            <Origin></Origin>
+            <FramesCount>1</FramesCount>
+            <Frames>
+                <Frame>
+                    <PosX>0</PosX>
+                    <PosY>0</PosY>
+                    <Width>107</Width>
+                    <Height>123</Height>
+                    <MirX>0</MirX>
+                    <MirY>0</MirY>
+                    <Points></Points>
+                </Frame>
+            </Frames>
+        </Animation>
+    </Animations>
+</Sprite>
