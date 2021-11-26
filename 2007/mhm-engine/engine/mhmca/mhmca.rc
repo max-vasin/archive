@@ -1,0 +1,165 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+#ifdef _WIN32
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_MAP_CUSTATTRIB DIALOGEX 0, 0, 217, 113
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif", 400, 0, 0xCC
+BEGIN
+    CONTROL         103,IDC_STATIC,"Static",SS_BITMAP | SS_RIGHTJUST,161,8,53,31
+    GROUPBOX        " Map coordinates animation ",IDC_STATIC,6,4,153,34
+    LTEXT           "U:",IDC_STATIC,8,19,8,10,SS_CENTERIMAGE
+    LTEXT           "V:",IDC_STATIC,58,19,8,10,SS_CENTERIMAGE
+    CONTROL         "Custom1",IDC_MAPATTRIB_SPEEDU,"CustEdit",WS_TABSTOP,16,19,32,10
+    CONTROL         "Custom1",IDC_MAPATTRIB_SPEEDU_SPIN,"SpinnerControl",WS_TABSTOP,49,19,6,10
+    CONTROL         "Custom1",IDC_MAPATTRIB_SPEEDV,"CustEdit",WS_TABSTOP,65,19,32,10
+    CONTROL         "Custom1",IDC_MAPATTRIB_SPEEDV_SPIN,"SpinnerControl",WS_TABSTOP,98,19,6,10
+    CONTROL         "Custom1",IDC_MAPATTRIB_SPEEDROT,"CustEdit",WS_TABSTOP,115,19,32,10
+    CONTROL         "Custom1",IDC_MAPATTRIB_SPEEDROT_SPIN,"SpinnerControl",WS_TABSTOP,148,19,6,10
+    LTEXT           "R:",IDC_STATIC,107,19,8,10,SS_CENTERIMAGE
+    LTEXT           "mipmap level:",IDC_STATIC,9,52,45,10,SS_CENTERIMAGE
+    CONTROL         "Custom1",IDC_MAPATTRIB_MIPLEVEL,"CustEdit",WS_TABSTOP,54,52,32,10
+    CONTROL         "Custom1",IDC_MAPATTRIB_MIPLEVEL_SPIN,"SpinnerControl",WS_TABSTOP,87,52,6,10
+    GROUPBOX        " Color key ",IDC_STATIC,104,42,110,64
+    CONTROL         "enable color key range",IDC_MAPATTRIB_COLORKEY_ENABLE,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,110,52,97,10
+    CONTROL         "Custom1",IDC_MAPATTRIB_COLORKEY_LOW,"ColorSwatch",WS_TABSTOP,128,65,31,10
+    LTEXT           "Low:",IDC_STATIC,110,65,15,10
+    CONTROL         "Custom1",IDC_MAPATTRIB_COLORKEY_HI,"ColorSwatch",WS_TABSTOP,177,65,31,10
+    LTEXT           "Hi:",IDC_STATIC,164,65,9,10
+    LTEXT           "Color key alpha:",IDC_STATIC,110,80,58,10
+    CONTROL         "Custom1",IDC_MAPATTRIB_COLORKEY_ALPHA,"CustEdit",WS_TABSTOP,169,80,32,10
+    CONTROL         "Custom1",IDC_MAPATTRIB_COLORKEY_ALPHA_SPIN,
+                    "SpinnerControl",WS_TABSTOP,202,80,6,10
+    GROUPBOX        " Map rendering ",IDC_STATIC,6,41,93,65
+    LTEXT           "alpha value:",IDC_STATIC,9,68,45,10,SS_CENTERIMAGE
+    CONTROL         "Custom1",IDC_MAPATTRIB_ALPHATEST_VALUE,"CustEdit",WS_TABSTOP,54,68,32,10
+    CONTROL         "Custom1",IDC_MAPATTRIB_ALPHATEST_VALUE_SPIN,
+                    "SpinnerControl",WS_TABSTOP,87,68,6,10
+    CONTROL         "enable alpha blending",IDC_MAPATTRIB_ALPHABLEND_ENABLE,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,10,81,83,10
+    CONTROL         "additive mixing",IDC_MAPATTRIB_ADDITIVE_ENABLE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,10,92,83,10
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_MAP_CUSTATTRIB, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 210
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 106
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_MAYHEM_LOGO         BITMAP                  "D:\\MHM engine\\mayhem_logo_min.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_MAYHEM_MAP_CLASS_NAME "MayhemMapCustomAttributes"
+    IDS_LIBDESC             "Mayhem custom attributes plugin"
+    IDS_MAPCA               "Mayhem map attributes"
+    IDS_MAYHEM_GUP_CLASS_NAME "Mayhem GUP control"
+    IDS_MAP_CUSTATTRIB      "Mayhem map attributes"
+    IDS_TESTCHECK           "This from string table"
+    IDS_MAPATTRIB_SPEEDU    "map_speed_u"
+    IDS_MAPATTRIB_SPEEDV    "map_speed_v"
+    IDS_MAPATTRIB_SPEEDROT  "map_speed_r"
+    IDS_MAPATTRIB_MIPLEVEL  "map_mipmaps"
+    IDS_MAPATTRIB_COLORKEY_LOW "map_colorkey_low"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MAPATTRIB_COLORKEY_ENABLE "map_colorkey_enable"
+    IDS_MAPATTRIB_COLORKEY_HI "map_colorkey_hi"
+    IDS_MAPATTRIB_COLORKEY_ALPHA "map_colorkey_alpha"
+    IDS_MAPATTRIB_ALPHATEST_VALUE "map_alphatest_value"
+    IDS_MAPATTRIB_ALPHABLEND_ENABLE "map_alphablend_enable"
+    IDS_MAPATTRIB_ADDITIVE_ENABLE "map_additive_enable"
+END
+
+#endif    // Russian resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

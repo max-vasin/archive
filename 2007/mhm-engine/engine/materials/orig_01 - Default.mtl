@@ -1,0 +1,8 @@
+Opacity=1.00000
+Shininess=0.80000
+Strength=1.00000
+DiffuseColor={0.97255:0.97255:0.97255}
+AmbientColor={0.97255:0.97255:0.97255}
+SpecularColor={0.90000:0.90000:0.90000}
+EmissionColor={0.00000:0.00000:0.00000}
+DiffuseMap={"monster_diffuse.jpg":0.00000:0.00000:0.00000:0:false:0.00000:0.00000:0.00000:0.00000:0.00000:0.00000:0:0:false:"None"}

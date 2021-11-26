@@ -1,0 +1,50 @@
+###################
+# Animation speed #
+###################
+FPS=30
+#######################
+# Animation keys data #
+#######################
+KeyCount=10
+#######################
+Key0     = "s_stay_2pistols"
+Key0_pos = 0
+Key1     = "e_stay_2pistols"
+Key1_pos = 39
+Key2     = "s_run_2pistols"
+Key2_pos = 40
+Key3     = "e_run_2pistols"
+Key3_pos = 60
+Key4     = "s_back_2pistols"
+Key4_pos = 61
+Key5     = "e_back_2pistols"
+Key5_pos = 80
+Key6     = "s_left_2pistols"
+Key6_pos = 81
+Key7     = "e_left_2pistols"
+Key7_pos = 100
+Key8     = "s_right_2pistols"
+Key8_pos = 101
+Key9     = "e_right_2pistols"
+Key9_pos = 120
+######################
+# Subanimations data #
+######################
+RangeCount   = 5
+######################
+Range0       = "stay_2pistols"
+Range0_start = "s_stay_2pistols"
+Range0_end   = "e_stay_2pistols"
+Range1       = "run_2pistols"
+Range1_start = "s_run_2pistols"
+Range1_end   = "e_run_2pistols"
+Range2       = "back_2pistols"
+Range2_start = "s_back_2pistols"
+Range2_end   = "e_back_2pistols"
+Range3       = "left_2pistols"
+Range3_start = "s_left_2pistols"
+Range3_end   = "e_left_2pistols"
+Range4       = "right_2pistols"
+Range4_start = "s_right_2pistols"
+Range4_end   = "e_right_2pistols"
+

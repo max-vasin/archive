@@ -1,0 +1,9 @@
+Opacity=1.00000
+Shininess=0.50000
+Strength=1.00000
+DiffuseColor={1.00000:1.00000:1.00000}
+AmbientColor={0.00000:0.00000:0.00000}
+SpecularColor={1.00000:1.00000:1.00000}
+EmissionColor={0.00000:0.00000:0.00000}
+DiffuseMap={"cpuwall2_d.tga":0.00000:0.00000:0.00000:0:false:1.00000:1.00000:1.00000:1.00000:1.00000:1.00000:0:10:false:"None"}
+BumpMap={"cpuwall2_local.tga":0.00000:0.00000:0.00000:0:false:1.00000:1.00000:1.00000:1.00000:1.00000:1.00000:0:10:false:"None"}

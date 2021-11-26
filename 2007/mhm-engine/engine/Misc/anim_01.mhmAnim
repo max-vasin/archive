@@ -1,0 +1,160 @@
+FPS = 30
+*************************
+KeyCount = 29
+-------------------------
+Key0 = "start"
+Key0_pos = 0
+-------------------------
+Key1 = "start_stop"
+Key1_pos = 60
+-------------------------
+Key2 = "start_2"
+Key2_pos = 70
+-------------------------
+Key3 = "start_stop2"
+Key3_pos = 190
+-------------------------
+Key4 = "run_man_start"
+Key4_pos = 200
+-------------------------
+Key5 = "run_man_end"
+Key5_pos = 220
+-------------------------
+Key6 = "batut_1"
+Key6_pos = 189
+-------------------------
+Key7 = "batut_2"
+Key7_pos = 192
+-------------------------
+Key8 = "a_r"
+Key8_pos = 200
+-------------------------
+Key9 = "a_l"
+Key9_pos = 230
+-------------------------
+Key10 = "over1"
+Key10_pos = 232
+-------------------------
+Key11 = "over2"
+Key11_pos = 240
+-------------------------
+Key12 = "aang_end"
+Key12_pos = 40
+-------------------------
+Key13 = "j_2"
+Key13_pos = 10
+-------------------------
+Key14 = "j_3"
+Key14_pos = 30
+-------------------------
+Key15 = "j_4"
+Key15_pos = 35
+-------------------------
+Key16 = "j_5"
+Key16_pos = 40
+-------------------------
+Key17 = "j_p1"
+Key17_pos = 75
+-------------------------
+Key18 = "j_p2"
+Key18_pos = 90
+-------------------------
+Key19 = "j_p3"
+Key19_pos = 110
+-------------------------
+Key20 = "j_boom1"
+Key20_pos = 145
+-------------------------
+Key21 = "j_boom2"
+Key21_pos = 150
+-------------------------
+Key22 = "j_polz"
+Key22_pos = 170
+-------------------------
+Key23 = "zast_1"
+Key23_pos = 0
+-------------------------
+Key24 = "zast_2"
+Key24_pos = 60
+-------------------------
+Key25 = "zast_3"
+Key25_pos = 120
+-------------------------
+Key26 = "pr1"
+Key26_pos = 0
+-------------------------
+Key27 = "pr2"
+Key27_pos = 20
+-------------------------
+Key28 = "pr3"
+Key28_pos = 100
+*************************
+RangeCount = 17
+-------------------------
+Range0 = "start_run"
+Range0_start = "start"
+Range0_end = "start_stop"
+-------------------------
+Range1 = "start_run_2"
+Range1_start = "start_2"
+Range1_end = "start_stop2"
+-------------------------
+Range2 = "run_man"
+Range2_start = "run_man_start"
+Range2_end = "run_man_end"
+-------------------------
+Range3 = "batut_up_do"
+Range3_start = "batut_1"
+Range3_end = "batut_2"
+-------------------------
+Range4 = "over_1"
+Range4_start = "over1"
+Range4_end = "over2"
+-------------------------
+Range5 = "aang"
+Range5_start = "start"
+Range5_end = "aang_end"
+-------------------------
+Range6 = "j_1"
+Range6_start = "start"
+Range6_end = "j_2"
+-------------------------
+Range7 = "j_2"
+Range7_start = "j_2"
+Range7_end = "j_3"
+-------------------------
+Range8 = "j_3"
+Range8_start = "j_4"
+Range8_end = "j_5"
+-------------------------
+Range9 = "j_p1"
+Range9_start = "j_p1"
+Range9_end = "j_p2"
+-------------------------
+Range10 = "j_r1"
+Range10_start = "j_p2"
+Range10_end = "j_p3"
+-------------------------
+Range11 = "j_boom"
+Range11_start = "j_boom1"
+Range11_end = "j_boom2"
+-------------------------
+Range12 = "j_polz"
+Range12_start = "j_boom2"
+Range12_end = "j_polz"
+-------------------------
+Range13 = "zast_open"
+Range13_start = "zast_1"
+Range13_end = "zast_2"
+-------------------------
+Range14 = "zast_close"
+Range14_start = "zast_2"
+Range14_end = "zast_3"
+-------------------------
+Range15 = "pr_1"
+Range15_start = "pr1"
+Range15_end = "pr2"
+-------------------------
+Range16 = "pr_2"
+Range16_start = "pr2"
+Range16_end = "pr3"

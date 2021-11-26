@@ -1,0 +1,9 @@
+Opacity=1.00000
+Shininess=0.10000
+Strength=0.00000
+DiffuseColor={0.58824:0.58824:0.58824}
+AmbientColor={0.58824:0.58824:0.58824}
+SpecularColor={0.90000:0.90000:0.90000}
+EmissionColor={0.00000:0.00000:0.00000}
+TransparencyType="Filter"
+EmissionMap={"flahlight.tga":0.10000:0.00000:0.00000:0:false:1.00000:1.00000:1.00000:1.00000:1.00000:1.00000:0:10:true:"Texture"}

@@ -1,0 +1,98 @@
+CreatureMesh sucker\CreatureMesh.if  1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 |type = CreatureMesh|
+;he CATBackRigHub  sucker\CATBackRigHub-path.if
+;he CATRigSpine1  sucker\CATRigSpine1-path.if |CATProp_LinkID = 1\nCATProp_LinkRotWeight = 0_019705\nCATProp_LinkPosWeight = 0_444908\nCATProp_LinkLength = 18_998917\n|
+;he CATRigSpine2  sucker\CATRigSpine2-path.if |CATProp_LinkID = 2\nCATProp_LinkRotWeight = 0_156355\nCATProp_LinkPosWeight = 1_111240\nCATProp_LinkLength = 18_998917\n|
+;he CATRigSpine3  sucker\CATRigSpine3-path.if |CATProp_LinkID = 3\nCATProp_LinkRotWeight = 0_376216\nCATProp_LinkPosWeight = 1_443852\nCATProp_LinkLength = 18_998917\n|
+;he CATRigSpine4  sucker\CATRigSpine4-path.if |CATProp_LinkID = 4\nCATProp_LinkRotWeight = 0_623784\nCATProp_LinkPosWeight = 1_443852\nCATProp_LinkLength = 18_998917\n|
+;he CATRigSpine5  sucker\CATRigSpine5-path.if |CATProp_LinkID = 5\nCATProp_LinkRotWeight = 0_843645\nCATProp_LinkPosWeight = 1_111241\nCATProp_LinkLength = 18_998917\n|
+;he CATRigSpine6  sucker\CATRigSpine6-path.if |CATProp_LinkID = 6\nCATProp_LinkRotWeight = 0_980295\nCATProp_LinkPosWeight = 0_444908\nCATProp_LinkLength = 18_998917\n|
+;he CATRigHub  sucker\CATRigHub-path.if
+;he CATRigLArm1  sucker\CATRigLArm1-path.if
+;he Object01  -0.295399 -0.943819 -0.148137 0.722192 -0.119091 -0.681363 0.625442 -0.308258 0.716798 -0.000006 -0.000001 22.261122
+;he Object04  0.999662 0.024836 0.007636 -0.024952 0.835628 0.548729 0.007248 -0.548734 0.835965 -0.000005 0.000005 13.777762
+;he CATRigRArm1  sucker\CATRigRArm1-path.if
+;he CATRigRArm2  0.089045 0.597121 -0.797193 -0.995991 0.060195 -0.066163 0.008480 0.799889 0.600088 0.000003 0.000010 20.874279
+;he CATRigRArm3  0.810321 0.240580 0.534323 -0.198847 0.970623 -0.135466 -0.551216 0.003523 0.834355 0.000009 -0.000002 14.429245
+;he CATMidRigRArm1  sucker\CATMidRigRArm1-path.if
+;he CATMidRigRArm2  sucker\CATMidRigRArm2-path.if
+;he CATMidRigRArm3  sucker\CATMidRigRArm3-path.if
+;he CATMidRigLArm1  sucker\CATMidRigLArm1-path.if
+;he CATMidRigLArm2  0.359944 -0.893934 -0.267060 0.395343 0.405419 -0.824220 0.845070 0.191093 0.499339 -0.000001 0.000005 30.884310
+;he Object06  sucker\Object06-path.if
+;he CATBackRigRArm1  sucker\CATBackRigRArm1-path.if
+;he CATBackRigRArm2  0.919406 -0.041382 -0.391126 0.053253 0.998390 0.019550 0.389687 -0.038804 0.920129 0.000007 -0.000004 15.581409
+;he CATBackRigRArm3  0.980631 -0.032162 -0.193206 0.031769 0.999482 -0.005133 0.193271 -0.001104 0.981145 0.000001 -0.000009 11.727729
+;he CATBackRigLArm1  sucker\CATBackRigLArm1-path.if
+;he CATBackRigLArm2  0.990555 0.018586 0.135846 -0.030744 0.995650 0.087952 -0.133620 -0.091297 0.986818 -0.000001 -0.000004 15.849434
+;he Object07  0.939607 0.004988 0.342220 0.005255 0.999566 -0.028998 -0.342216 0.029045 0.939172 0.000001 -0.000013 11.727728
+;he Object03  sucker\Object03-path.if
+;he CATRigLLeg1  sucker\CATRigLLeg1-path.if
+;he CATRigLLeg2  sucker\CATRigLLeg2-path.if
+;he Object02  sucker\Object02-path.if
+;he CATRigLLegAnkle  sucker\CATRigLLegAnkle-path.if
+;he CATRigRLegCollarbone  sucker\CATRigRLegCollarbone-path.if
+;he CATRigRLeg1  sucker\CATRigRLeg1-path.if
+;he CATRigRLeg2  sucker\CATRigRLeg2-path.if
+;he CATRigRLeg3  sucker\CATRigRLeg3-path.if
+;he CATRigRLegAnkle  sucker\CATRigRLegAnkle-path.if
+;he CATBackRigLLeg1  sucker\CATBackRigLLeg1-path.if
+;he CATBackRigLLeg2  sucker\CATBackRigLLeg2-path.if
+;he Object05  sucker\Object05-path.if
+;he CATBackRigLLegAnkle  sucker\CATBackRigLLegAnkle-path.if
+;he CATBackRigRLeg1  sucker\CATBackRigRLeg1-path.if
+;he CATBackRigRLeg2  sucker\CATBackRigRLeg2-path.if
+;he CATBackRigRLeg3  sucker\CATBackRigRLeg3-path.if
+;he CATBackRigRLegAnkle  sucker\CATBackRigRLegAnkle-path.if
+;he CATRigTail1  sucker\CATRigTail1-path.if
+;he CATRigTail2  sucker\CATRigTail2-path.if
+;he CATRigTail3  sucker\CATRigTail3-path.if
+;he CATRigTail4  sucker\CATRigTail4-path.if
+;he Blood  sucker\Blood-path.if |type = BloodParticles|
+;pa CATRigSpine1 CATBackRigHub
+;pa CATRigSpine2 CATRigSpine1
+;pa CATRigSpine3 CATRigSpine2
+;pa CATRigSpine4 CATRigSpine3
+;pa CATRigSpine5 CATRigSpine4
+;pa CATRigSpine6 CATRigSpine5
+;pa CATRigHub CATRigSpine6
+;pa CATRigLArm1 CATRigHub
+;pa Object01 CATRigLArm1
+;pa Object04 Object01
+;pa CATRigRArm1 CATRigHub
+;pa CATRigRArm2 CATRigRArm1
+;pa CATRigRArm3 CATRigRArm2
+;pa CATMidRigRArm1 CATRigSpine4
+;pa CATMidRigRArm2 CATMidRigRArm1
+;pa CATMidRigRArm3 CATMidRigRArm2
+;pa CATMidRigLArm1 CATRigSpine4
+;pa CATMidRigLArm2 CATMidRigLArm1
+;pa Object06 CATMidRigLArm2
+;pa CATBackRigRArm1 CATRigSpine3
+;pa CATBackRigRArm2 CATBackRigRArm1
+;pa CATBackRigRArm3 CATBackRigRArm2
+;pa CATBackRigLArm1 CATRigSpine3
+;pa CATBackRigLArm2 CATBackRigLArm1
+;pa Object07 CATBackRigLArm2
+;pa Object03 CATBackRigHub
+;pa CATRigLLeg1 Object03
+;pa CATRigLLeg2 CATRigLLeg1
+;pa Object02 CATRigLLeg2
+;pa CATRigLLegAnkle Object02
+;pa CATRigRLegCollarbone CATBackRigHub
+;pa CATRigRLeg1 CATRigRLegCollarbone
+;pa CATRigRLeg2 CATRigRLeg1
+;pa CATRigRLeg3 CATRigRLeg2
+;pa CATRigRLegAnkle CATRigRLeg3
+;pa CATBackRigLLeg1 CATBackRigHub
+;pa CATBackRigLLeg2 CATBackRigLLeg1
+;pa Object05 CATBackRigLLeg2
+;pa CATBackRigLLegAnkle Object05
+;pa CATBackRigRLeg1 CATBackRigHub
+;pa CATBackRigRLeg2 CATBackRigRLeg1
+;pa CATBackRigRLeg3 CATBackRigRLeg2
+;pa CATBackRigRLegAnkle CATBackRigRLeg3
+;pa CATRigTail1 CATBackRigHub
+;pa CATRigTail2 CATRigTail1
+;pa CATRigTail3 CATRigTail2
+;pa CATRigTail4 CATRigTail3
+end

@@ -1,0 +1,2 @@
+CreatureCount = 1
+Creature00 = {"flyer", "meshes\\flyer.mj", "flyer"}

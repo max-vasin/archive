@@ -1,0 +1,11 @@
+Opacity=1.00000
+Shininess=0.01000
+Strength=0.00000
+DiffuseColor={1.00000:1.00000:1.00000}
+AmbientColor={1.00000:1.00000:1.00000}
+SpecularColor={0.90000:0.90000:0.90000}
+EmissionColor={1.00000:1.00000:1.00000}
+TwoSided=false
+Wireframe=false
+TransparencyType="Filter"
+DiffuseMap={"mans\man_02.tga":0.00000:0.00000:0.00000:0:false:1.00000:1.00000:1.00000:1.00000:1.00000:1.00000:0:10:false:"None":false}

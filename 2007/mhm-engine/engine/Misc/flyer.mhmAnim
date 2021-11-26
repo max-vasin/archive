@@ -1,0 +1,28 @@
+###################
+# Animation speed #
+###################
+FPS=30
+#######################
+# Animation keys data #
+#######################
+KeyCount=4
+#######################
+Key0     = "start"
+Key0_pos = 0
+Key1     = "end"
+Key1_pos = 22
+Key2     = "start_hit"
+Key2_pos = 21
+Key3     = "end_hit"
+Key3_pos = 30
+######################
+# Subanimations data #
+######################
+RangeCount   = 2
+######################
+Range0       = "fly"
+Range0_start = "start"
+Range0_end   = "end"
+Range1       = "hit"
+Range1_start = "start_hit"
+Range1_end   = "end_hit"

@@ -1,0 +1,74 @@
+Platform rolik\Platform.if  0.962405 -0.271619 0.000000 0.271619 0.962405 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000
+Star_ship rolik\Star_ship.if  rolik\Star_ship-path.if
+bottomdoor rolik\bottomdoor.if  rolik\bottomdoor-path.if
+topdoor rolik\topdoor.if  rolik\topdoor-path.if
+;ps SuperSpray01 ps/SuperSpray01.apd  -0.000281 -0.098203 0.000439 -0.098204 0.000281 0.000044 -0.000045 -0.000439 -0.098203 -7.334536 -19.330786 2.847969
+;ps SuperSpray02 ps/SuperSpray02.apd  -0.000281 -0.098203 0.000439 -0.098204 0.000281 0.000044 -0.000045 -0.000439 -0.098203 -7.223856 19.409492 2.674926
+Box01 rolik\Box01.if  1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000
+;he Bip01  rolik\Bip01-path.if
+;he Bip01_Footsteps  rolik\Bip01_Footsteps-path.if
+;he Bip01_Pelvis  rolik\Bip01_Pelvis-path.if
+;he Bip01_Spine  rolik\Bip01_Spine-path.if
+;he Bip01_Spine1  rolik\Bip01_Spine1-path.if
+;he Bip01_Neck  rolik\Bip01_Neck-path.if
+;he Bip01_Head  rolik\Bip01_Head-path.if
+;he Bip01_L_Clavicle  rolik\Bip01_L_Clavicle-path.if
+;he Bip01_L_UpperArm  rolik\Bip01_L_UpperArm-path.if
+;he Bip01_L_Forearm  rolik\Bip01_L_Forearm-path.if
+;he Bip01_L_Hand  rolik\Bip01_L_Hand-path.if
+;he Bip01_L_Finger0  0.806577 0.045490 -0.589376 0.588618 -0.153606 0.793684 -0.054427 -0.987085 -0.150671 1.433292 -0.534339 -2.161418
+;he Bip01_L_Finger1  1.000000 -0.000000 -0.000000 -0.000000 1.000000 -0.000796 0.000000 0.000796 1.000000 9.228461 0.000042 -0.000023
+;he Bip01_R_Clavicle  rolik\Bip01_R_Clavicle-path.if
+;he Bip01_R_UpperArm  rolik\Bip01_R_UpperArm-path.if
+;he Bip01_R_Forearm  rolik\Bip01_R_Forearm-path.if
+;he Bip01_R_Hand  rolik\Bip01_R_Hand-path.if
+;he Bip01_R_Finger0  0.806577 0.045490 0.589376 0.588618 -0.153606 -0.793684 0.054427 0.987085 -0.150671 1.433348 -0.534304 2.161421
+;he Bip01_R_Finger1  1.000000 -0.000000 -0.000000 -0.000000 1.000000 0.000796 0.000000 -0.000796 1.000000 9.228569 -0.000024 0.000033
+;he Bip01_L_Thigh  rolik\Bip01_L_Thigh-path.if
+;he Bip01_L_Calf  rolik\Bip01_L_Calf-path.if
+;he Bip01_L_Foot  rolik\Bip01_L_Foot-path.if
+;he Bip01_L_Toe0  rolik\Bip01_L_Toe0-path.if
+;he Bip01_R_Thigh  rolik\Bip01_R_Thigh-path.if
+;he Bip01_R_Calf  rolik\Bip01_R_Calf-path.if
+;he Bip01_R_Foot  rolik\Bip01_R_Foot-path.if
+;he Bip01_R_Toe0  rolik\Bip01_R_Toe0-path.if
+Ground rolik\Ground.if  0.498571 0.000000 0.000000 0.000000 0.498571 0.000000 0.000000 0.000000 0.498571 6441.971680 -10542.121094 -793.094421
+;he Bip01_HeadNub  1.000000 -0.000000 0.000000 0.000000 1.000000 0.000000 -0.000000 -0.000000 1.000000 13.307770 0.000010 0.000040
+;he Bip01_L_Finger0Nub  1.000000 -0.000000 0.000000 -0.000000 1.000000 -0.000000 0.000000 0.000000 1.000000 4.074022 -0.000036 -0.000083
+;he Bip01_L_Finger1Nub  1.000000 -0.000000 -0.000000 -0.000000 1.000000 0.000000 0.000000 -0.000000 1.000000 1.769655 0.000003 -0.000054
+;he Bip01_R_Finger0Nub  1.000000 -0.000000 0.000000 -0.000000 1.000000 0.000000 0.000000 -0.000000 -1.000000 4.074099 -0.000012 0.000029
+;he Bip01_R_Finger1Nub  1.000000 -0.000000 0.000000 -0.000000 1.000000 -0.000000 -0.000000 0.000000 -1.000000 1.769687 -0.000015 0.000009
+;he Bip01_L_Toe0Nub  1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 -1.000000 1.554083 -0.000019 0.000027
+;he Bip01_R_Toe0Nub  1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 -0.000000 0.000000 1.000000 1.554080 -0.000050 -0.000003
+;ca Camera01 rolik\Camera01-path.if
+;pa bottomdoor Star_ship
+;pa topdoor Star_ship
+;pa SuperSpray01 Star_ship
+;pa SuperSpray02 Star_ship
+;pa Bip01_Footsteps Bip01
+;pa Bip01_Pelvis Bip01
+;pa Bip01_Spine Bip01_Pelvis
+;pa Bip01_Spine1 Bip01_Spine
+;pa Bip01_Neck Bip01_Spine1
+;pa Bip01_Head Bip01_Neck
+;pa Bip01_L_Clavicle Bip01_Neck
+;pa Bip01_L_UpperArm Bip01_L_Clavicle
+;pa Bip01_L_Forearm Bip01_L_UpperArm
+;pa Bip01_L_Hand Bip01_L_Forearm
+;pa Bip01_L_Finger0 Bip01_L_Hand
+;pa Bip01_L_Finger1 Bip01_L_Hand
+;pa Bip01_R_Clavicle Bip01_Neck
+;pa Bip01_R_UpperArm Bip01_R_Clavicle
+;pa Bip01_R_Forearm Bip01_R_UpperArm
+;pa Bip01_R_Hand Bip01_R_Forearm
+;pa Bip01_R_Finger0 Bip01_R_Hand
+;pa Bip01_R_Finger1 Bip01_R_Hand
+;pa Bip01_L_Thigh Bip01_Spine
+;pa Bip01_L_Calf Bip01_L_Thigh
+;pa Bip01_L_Foot Bip01_L_Calf
+;pa Bip01_L_Toe0 Bip01_L_Foot
+;pa Bip01_R_Thigh Bip01_Spine
+;pa Bip01_R_Calf Bip01_R_Thigh
+;pa Bip01_R_Foot Bip01_R_Calf
+;pa Bip01_R_Toe0 Bip01_R_Foot
+end

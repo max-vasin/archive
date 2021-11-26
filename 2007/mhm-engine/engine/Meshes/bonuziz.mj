@@ -1,0 +1,6 @@
+bonus_rocket_strike bonuziz\bonus_rocket_strike.if  1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 |type = Bonus\nBonusType = RocketStrike|
+BonusWrapper bonuziz\BonusWrapper.if  1.000000 0.000000 0.000000 0.000000 -0.000000 1.000000 0.000000 -1.000000 -0.000000 0.000000 0.000000 -0.000000
+;he Dummy01  1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 |type = SpriteParticles|
+;pa BonusWrapper bonus_rocket_strike
+;pa Dummy01 bonus_rocket_strike
+end

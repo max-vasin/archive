@@ -1,0 +1,52 @@
+Box01 bug\Box01.if  1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 |type = CreatureMesh|
+;he CATRigHub  bug\CATRigHub-path.if
+;he CATRigSpine1  bug\CATRigSpine1-path.if |CATProp_LinkID = 1\nCATProp_LinkLength = 3_037414\nCATProp_LinkRotWeight = 0_161156\nCATProp_LinkPosWeight = 1_011160\n|
+;he CATRigSpine2  bug\CATRigSpine2-path.if |CATProp_LinkID = 2\nCATProp_LinkLength = 3_037414\nCATProp_LinkRotWeight = 0_845210\nCATProp_LinkPosWeight = 0_988840\n|
+;he CATHiRigHub  bug\CATHiRigHub-path.if
+;he CATBackRigLLeg1  bug\CATBackRigLLeg1-path.if
+;he CATBackRigLLeg2  bug\CATBackRigLLeg2-path.if
+;he CATBackRigLLegAnkle  bug\CATBackRigLLegAnkle-path.if
+;he CATBackRigRLeg1  bug\CATBackRigRLeg1-path.if
+;he CATBackRigRLeg2  bug\CATBackRigRLeg2-path.if
+;he CATBackRigRLegAnkle  bug\CATBackRigRLegAnkle-path.if
+;he CATRigLLeg1  bug\CATRigLLeg1-path.if
+;he CATRigLLeg2  bug\CATRigLLeg2-path.if
+;he CATRigLLegAnkle  bug\CATRigLLegAnkle-path.if
+;he CATRigRLeg1  bug\CATRigRLeg1-path.if
+;he CATRigRLeg2  bug\CATRigRLeg2-path.if
+;he CATRigRLegAnkle  bug\CATRigRLegAnkle-path.if
+;he CATRigTail1  -0.524472 -0.754683 -0.394186 -0.245754 -0.309084 0.918734 -0.815189 0.578723 -0.023360 2.175976 -7.500793 -10.709808
+;he CATRigTail2  bug\CATRigTail2-path.if
+;he CATRigTail3  0.979617 -0.131005 0.152279 0.179479 0.230375 -0.956407 0.090212 0.964243 0.249192 6.074826 -0.000000 -0.000001
+;he CATRigLArm1  -0.332537 0.717568 -0.611977 0.927495 0.366355 -0.074417 0.170801 -0.592352 -0.787367 2.021964 7.698142 -9.740621
+;he CATRigLArm2  bug\CATRigLArm2-path.if
+;he Object01  0.987291 -0.146646 -0.061257 0.126220 0.957742 -0.258455 0.096570 0.247438 0.964079 7.001756 0.000001 -0.000000
+;he CATBottomRigTail1  bug\CATBottomRigTail1-path.if
+;he CATBottomRigTail2  0.999913 0.008487 -0.010132 -0.008519 0.999959 -0.003136 0.010105 0.003222 0.999944 6.967828 0.000000 -0.000000
+;he CATBottomRigTail3  0.999913 0.008487 -0.010132 -0.008519 0.999959 -0.003135 0.010105 0.003222 0.999944 6.074827 0.000000 0.000000
+;he Dummy01  bug\Dummy01-path.if |type = BloodParticles|
+;pa CATRigSpine1 CATRigHub
+;pa CATRigSpine2 CATRigSpine1
+;pa CATHiRigHub CATRigSpine2
+;pa CATBackRigLLeg1 CATRigHub
+;pa CATBackRigLLeg2 CATBackRigLLeg1
+;pa CATBackRigLLegAnkle CATBackRigLLeg2
+;pa CATBackRigRLeg1 CATRigHub
+;pa CATBackRigRLeg2 CATBackRigRLeg1
+;pa CATBackRigRLegAnkle CATBackRigRLeg2
+;pa CATRigLLeg1 CATRigHub
+;pa CATRigLLeg2 CATRigLLeg1
+;pa CATRigLLegAnkle CATRigLLeg2
+;pa CATRigRLeg1 CATRigHub
+;pa CATRigRLeg2 CATRigRLeg1
+;pa CATRigRLegAnkle CATRigRLeg2
+;pa CATRigTail1 CATRigHub
+;pa CATRigTail2 CATRigTail1
+;pa CATRigTail3 CATRigTail2
+;pa CATRigLArm1 CATRigHub
+;pa CATRigLArm2 CATRigLArm1
+;pa Object01 CATRigLArm2
+;pa CATBottomRigTail1 CATRigHub
+;pa CATBottomRigTail2 CATBottomRigTail1
+;pa CATBottomRigTail3 CATBottomRigTail2
+end

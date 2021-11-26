@@ -1,0 +1,1 @@
+fxc.exe /T ps_1_4 /E main /Fc bump.asm /Fo bump.pso bump.psh

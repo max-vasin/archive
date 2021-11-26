@@ -1,0 +1,9 @@
+Opacity=1.00000
+Shininess=0.60000
+Strength=1.00000
+DiffuseColor={0.99216:0.99216:0.99216}
+AmbientColor={0.42745:0.42745:0.42745}
+SpecularColor={0.80392:0.80392:0.80392}
+EmissionColor={0.00000:0.00000:0.00000}
+DiffuseMap={"achtung_clang.tga":0.00000:0.00000:0.00000:0:false:1.00000:1.00000:1.00000:1.00000:1.00000:1.00000:0:10:false:"None"}
+BumpMap={"achtung_clangDOT3.tga":0.00000:0.00000:0.00000:0:false:1.00000:1.00000:1.00000:1.00000:1.00000:1.00000:0:10:false:"None"}

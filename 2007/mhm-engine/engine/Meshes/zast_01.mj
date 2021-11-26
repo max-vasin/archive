@@ -1,0 +1,12 @@
+Rectangle01 zast_01\Rectangle01.if  1.006015 0.000000 0.000000 0.000000 1.006015 0.000000 0.000000 0.000000 1.006015 0.000000 0.000000 0.000000
+dver1 zast_01\dver1.if  zast_01\dver1-path.if
+dver2 zast_01\dver2.if  zast_01\dver2-path.if
+Line03 zast_01\Line03.if  zast_01\Line03-path.if
+Line04 zast_01\Line04.if  zast_01\Line04-path.if
+Tube01 zast_01\Tube01.if  zast_01\Tube01-path.if
+Tube02 zast_01\Tube01.if  zast_01\Tube02-path.if
+Torus01 zast_01\Torus01.if  zast_01\Torus01-path.if
+Torus02 zast_01\Torus02.if  zast_01\Torus02-path.if
+Torus03 zast_01\Torus03.if  zast_01\Torus03-path.if
+;ca Camera01 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 -0.000000 483.561890
+end

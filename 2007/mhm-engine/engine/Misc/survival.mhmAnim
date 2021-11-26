@@ -1,0 +1,21 @@
+###################
+# Animation speed #
+###################
+FPS=30
+#######################
+# Animation keys data #
+#######################
+KeyCount = 2
+#######################
+Key0     = "start"
+Key0_pos = 0
+Key1     = "end"
+Key1_pos = 300
+######################
+# Subanimations data #
+######################
+RangeCount   = 1
+######################
+Range0       = "play"
+Range0_start = "start"
+Range0_end   = "end"

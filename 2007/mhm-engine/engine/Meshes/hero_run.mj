@@ -1,0 +1,73 @@
+HeroMesh hero_run\HeroMesh.if  1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 |boundscale = 0.5|
+;he Bip01  hero_run\Bip01-path.if
+;he Bip01_Footsteps  hero_run\Bip01_Footsteps-path.if
+;he Bip01_Pelvis  hero_run\Bip01_Pelvis-path.if
+;he Bip01_Spine  hero_run\Bip01_Spine-path.if
+;he Bip01_Spine1  hero_run\Bip01_Spine1-path.if
+;he Bip01_Neck  hero_run\Bip01_Neck-path.if
+;he Bip01_Head  hero_run\Bip01_Head-path.if
+;he Bip01_L_Clavicle  hero_run\Bip01_L_Clavicle-path.if
+;he Bip01_L_UpperArm  hero_run\Bip01_L_UpperArm-path.if
+;he Bip01_L_Forearm  hero_run\Bip01_L_Forearm-path.if
+;he Bip01_L_Hand  hero_run\Bip01_L_Hand-path.if
+;he Bip01_L_Finger0  0.806577 0.045490 -0.589376 0.588618 -0.153606 0.793684 -0.054427 -0.987085 -0.150671 1.433260 -0.534360 -2.161414
+;he Bip01_L_Finger1  1.000000 0.000000 -0.000000 -0.000000 1.000000 -0.000796 -0.000000 0.000796 1.000000 9.228466 0.000004 0.000000
+;he Bip01_R_Clavicle  hero_run\Bip01_R_Clavicle-path.if
+;he Bip01_R_UpperArm  hero_run\Bip01_R_UpperArm-path.if
+;he Bip01_R_Forearm  hero_run\Bip01_R_Forearm-path.if
+;he Bip01_R_Hand  hero_run\Bip01_R_Hand-path.if
+;he Bip01_R_Finger0  0.667962 0.728921 0.150001 0.131134 0.083122 -0.987874 -0.732551 0.679532 -0.040064 1.433261 -0.534361 2.161417
+;he Bip01_R_Finger1  1.000000 0.000000 0.000000 0.000000 1.000000 0.000796 0.000000 -0.000796 1.000000 9.228465 0.000000 0.000001
+mini_gun hero_run\mini_gun.if  0.080306 0.005174 1.655945 1.651784 0.117332 -0.080470 -0.117445 1.653734 0.000528 -1.009196 0.223604 -1.570350
+;he Bip01_L_Thigh  hero_run\Bip01_L_Thigh-path.if
+;he Bip01_L_Calf  hero_run\Bip01_L_Calf-path.if
+;he Bip01_L_Foot  hero_run\Bip01_L_Foot-path.if
+;he Bip01_L_Toe0  hero_run\Bip01_L_Toe0-path.if
+;he Bip01_R_Thigh  hero_run\Bip01_R_Thigh-path.if
+;he Bip01_R_Calf  hero_run\Bip01_R_Calf-path.if
+;he Bip01_R_Foot  hero_run\Bip01_R_Foot-path.if
+;he Bip01_R_Toe0  hero_run\Bip01_R_Toe0-path.if
+;he Bip01_HeadNub  1.000000 -0.000000 0.000000 0.000000 1.000000 0.000000 -0.000000 -0.000000 1.000000 13.307775 -0.000000 0.000000
+;he Bip01_L_Finger0Nub  1.000000 0.000000 -0.000000 0.000000 1.000000 -0.000000 0.000000 0.000000 1.000000 4.073975 -0.000000 0.000001
+;he Bip01_L_Finger1Nub  1.000000 -0.000000 -0.000000 -0.000000 1.000000 0.000000 0.000000 -0.000000 1.000000 1.769654 -0.000001 0.000001
+;he Bip01_R_Finger0Nub  1.000000 0.000000 0.000000 -0.000000 1.000000 0.000000 -0.000000 -0.000000 -1.000000 4.073975 -0.000001 -0.000000
+;he Bip01_R_Finger1Nub  1.000000 -0.000000 0.000000 -0.000000 1.000000 0.000000 0.000000 0.000000 -1.000000 1.769651 -0.000000 0.000003
+;he WeaponHolder  -0.008052 0.998392 0.056106 -0.032118 -0.056337 0.997895 0.999452 0.006233 0.032520 6.192326 2.045585 -0.147669
+;he Bip01_L_Toe0Nub  1.000000 0.000000 0.000000 0.000000 1.000000 -0.000000 0.000000 0.000000 -1.000000 1.554056 -0.000000 -0.000000
+;he Bip01_R_Toe0Nub  1.000000 0.000000 0.000000 -0.000000 1.000000 0.000000 0.000000 -0.000000 1.000000 1.554060 -0.000000 0.000000
+;pa Bip01_Footsteps Bip01
+;pa Bip01_Pelvis Bip01
+;pa Bip01_Spine Bip01_Pelvis
+;pa Bip01_Spine1 Bip01_Spine
+;pa Bip01_Neck Bip01_Spine1
+;pa Bip01_Head Bip01_Neck
+;pa Bip01_L_Clavicle Bip01_Neck
+;pa Bip01_L_UpperArm Bip01_L_Clavicle
+;pa Bip01_L_Forearm Bip01_L_UpperArm
+;pa Bip01_L_Hand Bip01_L_Forearm
+;pa Bip01_L_Finger0 Bip01_L_Hand
+;pa Bip01_L_Finger1 Bip01_L_Hand
+;pa Bip01_R_Clavicle Bip01_Neck
+;pa Bip01_R_UpperArm Bip01_R_Clavicle
+;pa Bip01_R_Forearm Bip01_R_UpperArm
+;pa Bip01_R_Hand Bip01_R_Forearm
+;pa Bip01_R_Finger0 Bip01_R_Hand
+;pa Bip01_R_Finger1 Bip01_R_Hand
+;pa mini_gun WeaponHolder
+;pa Bip01_L_Thigh Bip01_Spine
+;pa Bip01_L_Calf Bip01_L_Thigh
+;pa Bip01_L_Foot Bip01_L_Calf
+;pa Bip01_L_Toe0 Bip01_L_Foot
+;pa Bip01_R_Thigh Bip01_Spine
+;pa Bip01_R_Calf Bip01_R_Thigh
+;pa Bip01_R_Foot Bip01_R_Calf
+;pa Bip01_R_Toe0 Bip01_R_Foot
+;pa Bip01_HeadNub Bip01_Head
+;pa Bip01_L_Finger0Nub Bip01_L_Finger0
+;pa Bip01_L_Finger1Nub Bip01_L_Finger1
+;pa Bip01_R_Finger0Nub Bip01_R_Finger0
+;pa Bip01_R_Finger1Nub Bip01_R_Finger1
+;pa WeaponHolder Bip01_R_Hand
+;pa Bip01_L_Toe0Nub Bip01_L_Toe0
+;pa Bip01_R_Toe0Nub Bip01_R_Toe0
+end

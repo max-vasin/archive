@@ -1,0 +1,9 @@
+Opacity=1.00000
+Shininess=0.10000
+Strength=0.00000
+DiffuseColor={0.98824:0.98824:0.98824}
+AmbientColor={0.98824:0.98824:0.98824}
+SpecularColor={0.90000:0.90000:0.90000}
+EmissionColor={0.00000:0.00000:0.00000}
+DiffuseMap={"Water_tower.tga":0.00000:0.00000:0.00000:0:false:0.00000:0.00000:0.00000:0.00000:0.00000:0.00000:0:0:false:"None"}
+OpacityMap={"Water_tower.tga":0.00000:0.00000:0.00000:0:false:0.00000:0.00000:0.00000:0.00000:0.00000:0.00000:0:0:false:"Texture"}

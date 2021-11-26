@@ -1,0 +1,10 @@
+Opacity=0.50000
+Shininess=0.37000
+Strength=2.74000
+DiffuseColor={0.70980:0.78431:0.96863}
+AmbientColor={0.70980:0.78431:0.96863}
+SpecularColor={0.90000:0.90000:0.90000}
+EmissionColor={0.00000:0.00000:0.00000}
+TwoSided=false
+Wireframe=false
+TransparencyType="Filter"

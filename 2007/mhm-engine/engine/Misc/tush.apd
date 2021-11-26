@@ -1,0 +1,71 @@
+APD1
+
+# Anachronox Particle Definition File
+# First four characters in file must not be changed!
+# This file was generated: 2006-08-17 22:44:29
+# Particle engine compiled: Jun 14 2001 06:12:37
+# 
+# Comment lines begin with the '#' character.
+# Value of "time" is always integral milliseconds from start of script.
+#
+# Most integer values can be entered in three ways:
+# - If first character is '0' and seoncd character is not 'x' or 'X',
+#   then it is assumed to be in octal (base 8).
+# - If first character is '0' and second character IS 'x' or 'X',
+#   then it is assumed to be hexadecimal (base 16).
+# - Otherwise it is treated as a normal base 10 number.
+# Example:  0x100 (base 16), 291 (base 10), and 0443 (base 8) are the same.
+
+########
+# generator  : <description>
+#------------:---------------
+  generator  : Generator #1
+# generator constant acceleration vector
+  genaccel : 0 : 0 : 100
+# generator follows entity
+  genfollow : 1
+
+  #---------------
+  # Particle Data
+  #---------------
+
+  # alpha of particle (integer from 0-255 or 0x00-0xFF)
+  # alpha    : <time>   : <flags>    : <value>
+  #----------:----------:------------:------------
+    alpha    : 0        : 0x00000000 : 131
+    alpha    : 100      : 0x00000000 : 128
+    alpha    : 576      : 0x00000000 : 110
+
+  # rgb color of particle in web order (hex)
+  # color    : <time>   : <flags>    : <0xRRGGBB>
+  #----------:----------:------------:------------
+    color    : 500      : 0x00000000 : 0x7F7F7F
+
+  # radius of particle in world units (float)
+  # radius   : <time>   : <flags>    : <value>
+  #----------:----------:------------:----------
+    radius   : 0        : 0x00000000 : 0.221000
+    radius   : 400      : 0x00000000 : 1.113000
+    radius   : 544      : 0x00000000 : 0.042000
+
+  #-----------
+  # Spew Data
+  #-----------
+
+  # rate of continuous particle emission per second (float >= 0)
+  # flow     : <time>   : <flags>    : <value>  
+  #----------:----------:------------:----------
+    flow     : 16       : 0x00000000 : 2984.53 
+    flow     : 2000     : 0x00000000 : 2984.53 
+
+  # range of angle values on sphere for emission (degrees 0.0 to 180.0)
+  # angle    : <time>   : <flags>    : <mindeg> : <maxdeg>
+  #----------:----------:------------:----------:----------
+    angle    : 0        : 0x00000000 : 78       : 78      
+    angle    : 1952     : 0x00000000 : 16       : 102     
+
+  # initial velocity range of particles (float values)
+  # initvel  : <time>   : <flags>    : <minvel> : <maxvel>
+  #----------:----------:------------:----------:----------
+    initvel  : 2032     : 0x00000000 : -0.867   : 22.957  
+

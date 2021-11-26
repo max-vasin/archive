@@ -1,0 +1,38 @@
+//========================================================
+// pixel shader constants table
+//========================================================
+float4	cDiffuse;
+float4  cAmbient;
+float4  cSpecular;
+
+sampler2D ColorMapSampler: register(s0); // Base map
+sampler2D BumpMapSampler:  register(s1); // Dot3 map
+
+//========================================================
+// pixel shader input semantics
+//========================================================
+struct PS_INPUT_STRUCT
+{
+	float4 position: POSITION;
+	float2 texcoord: TEXCOORD0;
+	float3 normal:   TEXCOORD1;
+	float3 lightA:   TEXCOORD2;
+	float3 viewdir:  TEXCOORD3;
+	float3 halfang:  TEXCOORD4;
+};
+
+//========================================================
+// pixel shader program
+//========================================================
+float4 main(PS_INPUT_STRUCT In):COLOR0
+{
+  float4 TextureColor = tex2D(ColorMapSampler, In.texcoord);
+  float3 BumpNormal   = 2.0f * (tex2D(BumpMapSampler, In.texcoord) - 0.5f);
+  float  NdH  = saturate(dot(BumpNormal, In.halfang));
+  float  NdL  = saturate(dot(BumpNormal, In.lightA));
+  float4 Spec = saturate(cSpecular * pow(NdH, 40.0f));
+  float4 Diff = TextureColor * NdL;
+  return cAmbient * TextureColor + Diff + Spec;
+}
+
+

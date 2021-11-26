@@ -1,0 +1,11 @@
+Opacity=0.44000
+Shininess=0.10000
+Strength=0.00000
+DiffuseColor={0.97255:0.97255:0.97255}
+AmbientColor={0.97255:0.97255:0.97255}
+SpecularColor={1.00000:1.00000:1.00000}
+EmissionColor={1.00000:1.00000:1.00000}
+TwoSided=false
+Wireframe=false
+TransparencyType="Filter"
+ReflectionMap={"CAUSTIC.jpg":0.10000:0.04000:0.02000:0:false:1.00000:1.00000:1.00000:1.00000:1.00000:1.00000:0:10:true:"None":false}

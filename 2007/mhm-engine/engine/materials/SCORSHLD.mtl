@@ -1,0 +1,8 @@
+Opacity=1.00000
+Shininess=0.81000
+Strength=1.00000
+DiffuseColor={0.04706:0.01961:0.01961}
+AmbientColor={0.04706:0.01961:0.01961}
+SpecularColor={0.99216:0.99216:0.99216}
+EmissionColor={0.00000:0.00000:0.00000}
+ReflectionMap={"LAKEREM.JPG":0.00000:0.00000:0.00000:0:false:0.00000:0.00000:0.00000:0.00000:0.00000:0.00000:0:0:false:"Texture"}

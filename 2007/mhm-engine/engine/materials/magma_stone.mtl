@@ -1,0 +1,11 @@
+Opacity=1.00000
+Shininess=0.10000
+Strength=0.00000
+DiffuseColor={0.94118:0.94118:0.94118}
+AmbientColor={0.94118:0.94118:0.94118}
+SpecularColor={0.90000:0.90000:0.90000}
+EmissionColor={0.00000:0.00000:0.00000}
+TwoSided=false
+Wireframe=false
+TransparencyType="Filter"
+DiffuseMap={"ALTAQUA.JPG":0.00000:0.00000:0.00000:0:false:1.00000:1.00000:1.00000:1.00000:1.00000:1.00000:0:10:false:"None"}

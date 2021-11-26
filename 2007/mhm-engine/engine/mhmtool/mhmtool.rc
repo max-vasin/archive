@@ -1,0 +1,192 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+#ifdef _WIN32
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_MAYHEM_PANEL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 101
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 145
+    END
+
+    IDD_MESH_PANEL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 101
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 157
+    END
+
+    IDD_PREFERENCES, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 280
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 114
+    END
+
+    IDD_PREFERENCES_PANEL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 101
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 55
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_MAYHEM_PANEL DIALOGEX 0, 0, 108, 152
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LISTBOX         IDC_MATERIAL_LIST,12,46,84,40,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "owerwrite existing",IDC_CHECK_MTLEXPORT_OVERWRITE,
+                    "Button",BS_AUTOCHECKBOX | BS_LEFT | BS_MULTILINE | WS_TABSTOP,18,16,71,12
+    GROUPBOX        " File name exist",IDC_STATIC,7,7,94,24
+    GROUPBOX        " Node material list ",IDC_STATIC,7,34,94,58
+    PUSHBUTTON      "Export",IDC_BUTTON_EXPORT,11,128,85,14
+    GROUPBOX        " Interpret UV offset as  ",IDC_STATIC,7,94,94,29
+    CONTROL         "offset",IDC_MATERIALEXPORT_OFFSET_AS_OFFSET,"Button",BS_AUTORADIOBUTTON | BS_PUSHLIKE | WS_GROUP,13,104,39,12
+    CONTROL         "animation",IDC_MATERIALEXPORT_OFFSET_AS_ANIMATION,
+                    "Button",BS_AUTORADIOBUTTON | BS_PUSHLIKE,56,104,39,12
+END
+
+IDD_MESH_PANEL DIALOGEX 0, 0, 108, 164
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "owerwrite existing",IDC_MESHEXPORT_OVERWRITE,"Button",BS_AUTOCHECKBOX | BS_LEFT | BS_MULTILINE | WS_TABSTOP,17,43,71,12
+    GROUPBOX        " File name exist",IDC_STATIC,7,34,94,24
+    GROUPBOX        " Export channels ",IDC_STATIC,7,63,94,58
+    PUSHBUTTON      "Export",IDC_BUTTON_MESH_EXPORT,11,142,85,14
+    CONTROL         "normals",IDC_CHECK_NORMALS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,17,77,68,11
+    CONTROL         "texture mapping",IDC_CHECK_MAPPING,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,17,90,69,11
+    CONTROL         "vertices color",IDC_CHECK_VCOLORS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,17,103,63,11
+    GROUPBOX        " Source node ",IDC_STATIC,7,4,94,27
+    LTEXT           "",IDC_SOURCE_NODE,12,14,84,12,SS_CENTERIMAGE | WS_BORDER
+    CONTROL         "packed (demomaking)",IDC_CHECK_PACKED_MESH,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,8,126,93,10
+END
+
+IDD_PREFERENCES DIALOGEX 0, 0, 287, 121
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Mayhem engine tools preferences"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "Save",IDOK,176,100,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,230,100,50,14
+    GROUPBOX        " Material export tool ",IDC_STATIC,7,7,270,50
+    EDITTEXT        IDC_MTLEXPORT_TEXTURES_ROOT,94,18,158,13,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_BUTTON_SELECT_TEXTURES_ROOT,254,18,15,13,WS_DISABLED
+    RTEXT           "Textures root path (cut):",IDC_STATIC,12,18,81,13,SS_CENTERIMAGE
+    EDITTEXT        IDC_MTLEXPORT_MATERIALS_ROOT,94,35,158,13,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_BUTTON_SELECT_MATERIALS_ROOT,254,35,15,13,WS_DISABLED
+    RTEXT           "Materials root path:",IDC_STATIC,12,35,81,13,SS_CENTERIMAGE
+    GROUPBOX        " Meshes export tool ",IDC_STATIC,7,59,270,33
+    EDITTEXT        IDC_MESHEXPORT_ROOT,94,72,158,13,ES_AUTOHSCROLL
+    RTEXT           "Meshes root path:",IDC_STATIC,12,72,81,13,SS_CENTERIMAGE
+    PUSHBUTTON      "...",IDC_BUTTON_SELECT_MATERIALS_ROOT2,254,72,15,13,WS_DISABLED
+END
+
+IDD_PREFERENCES_PANEL DIALOGEX 0, 0, 108, 62
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Preferences",IDC_BUTTON_PREFERENCES,11,40,85,14
+    CONTROL         "Mesh exporter",IDC_PREFERENCES_MESHEXPORTER,"Button",BS_AUTOCHECKBOX | BS_PUSHLIKE | WS_TABSTOP,11,8,85,14
+    CONTROL         "Material exporter",IDC_PREFERENCES_MATERIALEXPORTER,
+                    "Button",BS_AUTOCHECKBOX | BS_PUSHLIKE | WS_TABSTOP,11,24,85,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_LIBDESC             "Mayhem engine 3DS max tool plugin"
+    IDS_MHMTOOL_CLASS_NAME  "Mayhem engine tools"
+    IDS_PANEL_TITLE         "Material exporter"
+    IDS_PANEL_MESH          "Mesh exporter"
+    IDS_MATERIAL_EXT        "mtl"
+    IDS_PREFPANEL_TITLE     "Preferences"
+    IDS_MESH_EXT            "mmh"
+END
+
+#endif    // Russian resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

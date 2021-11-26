@@ -1,0 +1,42 @@
+MonsterSkin flyer\MonsterSkin.if  1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 |type = CreatureMesh\nboundscale = 0.5|
+;he flyerHub  flyer\flyerHub-path.if
+;he flyerRLeg1  flyer\flyerRLeg1-path.if
+;he flyerRLeg2  flyer\flyerRLeg2-path.if
+;he flyerRLeg3  flyer\flyerRLeg3-path.if
+;he flyerRLeg4  flyer\flyerRLeg4-path.if
+;he flyerRLegAnkle  flyer\flyerRLegAnkle-path.if
+;he flyerTail1  flyer\flyerTail1-path.if
+;he flyerTail2  flyer\flyerTail2-path.if
+;he flyer2Bone0  1.000000 -0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 -0.000000 1.000000 11.493790 -0.000001 -0.000007
+;he flyerLArm1  flyer\flyerLArm1-path.if
+;he flyerLArmPalm  flyer\flyerLArmPalm-path.if
+;he flyerLArmDigit21  0.999848 0.017452 -0.000000 -0.017452 0.999848 0.000000 0.000000 -0.000000 1.000000 31.842340 -0.000002 0.000002
+;he flyerRArm1  flyer\flyerRArm1-path.if
+;he flyerRArmPalm  flyer\flyerRArmPalm-path.if
+;he flyerRArmDigit21  0.999848 0.017452 0.000000 -0.017452 0.999848 -0.000000 -0.000000 -0.000000 1.000000 31.842329 0.000003 -0.000006
+;he flyerLLeg1  flyer\flyerLLeg1-path.if
+;he flyerLLeg2  flyer\flyerLLeg2-path.if
+;he Object01  flyer\Object01-path.if
+;he Object02  flyer\Object02-path.if
+;he flyerLLegAnkle  flyer\flyerLLegAnkle-path.if
+;he Dummy01  flyer\Dummy01-path.if |type = BloodParticles|
+;pa flyerRLeg1 flyerHub
+;pa flyerRLeg2 flyerRLeg1
+;pa flyerRLeg3 flyerRLeg2
+;pa flyerRLeg4 flyerRLeg3
+;pa flyerRLegAnkle flyerRLeg4
+;pa flyerTail1 flyerHub
+;pa flyerTail2 flyerTail1
+;pa flyer2Bone0 flyerTail2
+;pa flyerLArm1 flyerHub
+;pa flyerLArmPalm flyerLArm1
+;pa flyerLArmDigit21 flyerLArmPalm
+;pa flyerRArm1 flyerHub
+;pa flyerRArmPalm flyerRArm1
+;pa flyerRArmDigit21 flyerRArmPalm
+;pa flyerLLeg1 flyerHub
+;pa flyerLLeg2 flyerLLeg1
+;pa Object01 flyerLLeg2
+;pa Object02 Object01
+;pa flyerLLegAnkle Object02
+end

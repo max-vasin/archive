@@ -1,0 +1,740 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource1.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+#ifdef _WIN32
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource1.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_BMTEX DIALOGEX 0, 0, 217, 186
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif", 400, 0, 0xCC
+BEGIN
+    LTEXT           "Bitmap:",IDC_STATIC,4,8,25,8,0,WS_EX_RIGHT
+    CONTROL         "Custom1",IDC_BMTEX_NAME,"CustButton",WS_TABSTOP,31,6,180,12
+    PUSHBUTTON      "Reload",IDC_BMTEX_RELOAD,5,22,41,12
+    GROUPBOX        "Filtering",IDC_STATIC,6,43,85,41,WS_GROUP
+    CONTROL         "Pyramidal",IDC_FILTER_PYR,"Button",BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,16,53,65,10
+    CONTROL         "Summed Area",IDC_FILTER_SAT,"Button",BS_AUTORADIOBUTTON,16,63,65,10
+    CONTROL         "None",IDC_FILTER_NADA,"Button",BS_AUTORADIOBUTTON,16,72,50,10
+    GROUPBOX        "Mono Channel Output:",IDC_STATIC,6,88,86,34,WS_GROUP
+    CONTROL         "RGB Intensity",IDC_BMTEX_RGBOUT,"Button",BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,16,99,66,10
+    CONTROL         "Alpha",IDC_BMTEX_ALPHAOUT,"Button",BS_AUTORADIOBUTTON,16,109,66,10
+    GROUPBOX        "RGB Channel Output:",IDC_STATIC,6,127,86,36,WS_GROUP
+    CONTROL         "RGB ",IDC_BMTEX_RGBOUT2,"Button",BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,16,138,66,10
+    CONTROL         "Alpha as Gray",IDC_BMTEX_ALPHAOUT2,"Button",BS_AUTORADIOBUTTON,16,148,66,10
+    GROUPBOX        "Cropping/Placement",IDC_STATIC,97,22,115,84,WS_GROUP
+    CONTROL         "Apply ",IDC_BM_CLIP,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,113,38,32,10
+    PUSHBUTTON      "View Image",IDC_BM_CROP_IMAGE,156,36,49,12,WS_GROUP
+    CONTROL         "Crop",IDC_BM_CROP,"Button",BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,120,52,31,10
+    CONTROL         "Place",IDC_BM_PLACE,"Button",BS_AUTORADIOBUTTON,155,52,34,10
+    LTEXT           "U:",IDC_STATIC,104,67,8,8
+    CONTROL         "",IDC_CLIP_X,"CustEdit",WS_TABSTOP,112,66,29,10
+    CONTROL         "0,255,0",IDC_CLIP_XSPIN,"SpinnerControl",0x0,141,66,11,10
+    LTEXT           "W:",IDC_STATIC,159,67,10,8
+    CONTROL         "",IDC_CLIP_W,"CustEdit",WS_TABSTOP,169,66,29,10
+    CONTROL         "0,255,0",IDC_CLIP_WSPIN,"SpinnerControl",0x0,198,66,11,10
+    LTEXT           "V:",IDC_STATIC,104,78,8,8
+    CONTROL         "",IDC_CLIP_Y,"CustEdit",WS_TABSTOP,112,78,29,10
+    CONTROL         "0,255,0",IDC_CLIP_YSPIN,"SpinnerControl",0x0,141,78,11,10
+    LTEXT           "H:",IDC_STATIC,160,78,8,8
+    CONTROL         "",IDC_CLIP_H,"CustEdit",WS_TABSTOP,169,79,29,10
+    CONTROL         "0,255,0",IDC_CLIP_HSPIN,"SpinnerControl",0x0,198,79,11,10
+    CONTROL         "Jitter Placement:",IDC_BM_JITTER,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,102,91,69,10
+    CONTROL         "",IDC_JITTER_EDIT,"CustEdit",WS_TABSTOP,172,91,25,10
+    CONTROL         "0,255,0",IDC_JITTER_SPIN,"SpinnerControl",0x0,198,91,11,10
+    GROUPBOX        "Alpha Source",IDC_STATIC,98,111,114,42,WS_GROUP
+    CONTROL         "Image Alpha",IDC_ALPHA_FILE,"Button",BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,120,120,56,10
+    CONTROL         "RGB Intensity",IDC_ALPHA_RGB,"Button",BS_AUTORADIOBUTTON,120,130,61,10
+    CONTROL         "None (Opaque)",IDC_ALPHA_NONE,"Button",BS_AUTORADIOBUTTON,120,140,61,10
+    CONTROL         "Premultiplied Alpha",IDC_ALPHA_PREMULT,"Button",BS_AUTOCHECKBOX | WS_GROUP | WS_TABSTOP,112,157,75,10
+    LTEXT           "Mayhem MAX texture 2D expansion set",IDC_STATIC,7,172,203,8
+END
+
+IDD_BMTEX_TIME DIALOGEX 0, 0, 217, 67
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif", 400, 0, 0xCC
+BEGIN
+    CONTROL         "",IDC_BMTEX_START,"CustEdit",WS_TABSTOP,71,10,33,10
+    CONTROL         "",IDC_BMTEX_RATE,"CustEdit",WS_TABSTOP,72,26,32,10
+    CONTROL         "Loop",IDC_BMTEX_LOOP,"Button",BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,147,19,35,10
+    CONTROL         "Ping Pong",IDC_BMTEX_PINGPONG,"Button",BS_AUTORADIOBUTTON | WS_TABSTOP,147,33,47,10
+    CONTROL         "Hold",IDC_BMTEX_HOLD,"Button",BS_AUTORADIOBUTTON | WS_TABSTOP,147,46,35,10
+    LTEXT           "Start Frame:",IDC_STATIC,24,11,43,8
+    CONTROL         "0,255,0",IDC_BMTEX_START_SPIN,"SpinnerControl",0x0,105,10,11,10
+    LTEXT           "Playback Rate:",IDC_STATIC,17,28,51,8
+    CONTROL         "0,255,0",IDC_BMTEX_RATE_SPIN,"SpinnerControl",0x0,105,26,11,10
+    GROUPBOX        "End Condition",IDC_STATIC,141,6,62,56
+    CONTROL         "Sync Frames to Particle Age",IDC_MATIDTIME_CHECK,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,18,44,101,10
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_BMTEX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 210
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 179
+    END
+
+    IDD_BMTEX_TIME, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 210
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 60
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_LIBDESC             "Mathem 2Dtexmap expansion set"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_DS_RGBAMT           "RGB Level"
+    IDS_DS_RGBOFF           "RGB Offset"
+    IDS_PW_COMPOSITE_MATERIAL "Composite"
+    IDS_PW_TYPE             "Composite Type"
+    IDS_PW_AMOUNT           "Amount"
+    IDS_COMPOSITE_MATERIAL_OBJECT "Composite"
+    IDS_MAP                 "Map ID"
+    IDS_SUBID               "SubID"
+    IDS_RED                 "Red"
+    IDS_GREEN               "Green"
+    IDS_BLUE                "Blue"
+    IDS_MAPTYPE             "Map Type"
+    IDS_ALL                 "All"
+    IDS_ALPHA               "Alpha"
+    IDS_ILLUMINATION        "Illumination"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_DS_PHASE            "Phase"
+    IDS_DS_AMBIENT          "Ambient Color"
+    IDS_DS_DIFFUSE          "Diffuse Color"
+    IDS_DS_SPECULAR         "Specular Color"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_DS_WIREFRAME        "Wire"
+    IDS_DS_SHININESS        "Glossiness"
+    IDS_DS_SHIN_STR         "Specular Level"
+    IDS_DS_OPACITY          "Opacity"
+    IDS_DS_SELFI            "Self-Illum."
+    IDS_DS_XPFALL           "Transparency falloff"
+    IDS_MAPENABLE           "Map Enable"
+    IDS_JW_SHADERTYPE       "Shader Type"
+    IDS_DS_BASIC            "Basic Parameters"
+    IDS_DS_EXTRA            "Extended Parameters"
+    IDS_DS_TEXMAP           "Maps"
+    IDS_COLORS              "Colors"
+    IDS_MAPS                "Maps"
+    IDS_GRAD_TYPE           "Gradient Type"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_JW_MAPENABLES       "Map Enables"
+    IDS_DS_THRESH           "Position"
+    IDS_DS_BLEND            "Blend"
+    IDS_DS_BU               "Bump"
+    IDS_DS_RL               "Reflection"
+    IDS_DS_RR               "Refraction"
+    IDS_DS_TEXMAPS          "Maps"
+    IDS_DS_FILTER           "Filter Color"
+    IDS_DS_CHECKPARMS       "Checker Parameters"
+    IDS_DS_COORDINATES      "Coordinates"
+    IDS_NOISE_TYPE          "Noise Type"
+    IDS_DS_UOFFS            "U Offset"
+    IDS_DS_VOFFS            "V Offset"
+    IDS_DS_USCL             "U Tiling"
+    IDS_DS_VSCL             "V Tiling"
+    IDS_DS_ANGLE            "Angle"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_DS_COLOR1           "Color 1"
+    IDS_DS_COLOR2           "Color 2"
+    IDS_DS_BLUR             "Blur"
+    IDS_JW_MAP1             "Map 1"
+    IDS_DS_FLAT             "Flat"
+    IDS_DS_GOURAUD          "Gouraud"
+    IDS_DS_PHONG            "Phong"
+    IDS_DS_METAL            "Metal"
+    IDS_DS_OFFS             "Offset"
+    IDS_DS_SCL              "Scale"
+    IDS_DS_MARBPARMS        "Marble Parameters"
+    IDS_DS_MARBWIDTH        "Vein width"
+    IDS_DS_MARBSIZE         "Size"
+    IDS_DS_COORDNOISE       "Noise"
+    IDS_DS_TEXOUT           "Output "
+    IDS_DS_MIXAMT           "Mix Amount"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_DS_SHRINK_ENV       "Shrink-wrap Environment"
+    IDS_DS_SCREEN           "Screen"
+    IDS_DS_WIRESZ           "Wire Size"
+    IDS_DS_IOR              "Index of Refraction"
+    IDS_DS_MAPSIZE          "Map Size"
+    IDS_DS_ACUBIC_PARAMS    "Reflect/Refract Parameters"
+    IDS_DS_BLUROFFS         "Blur Offset"
+    IDS_DS_MIRROR_PARAMS    "Flat Mirror Parameters"
+    IDS_DS_LEVELS           "Levels"
+    IDS_DS_CONSTANT         "Constant"
+    IDS_DS_PARAMETERS       "Parameters"
+    IDS_JW_MAP3             "Map 3"
+    IDS_JW_MAP1ENABLE       "Map 1 Enable"
+    IDS_JW_MAP2ENABLE       "Map 2 Enable"
+    IDS_JW_MAP3ENABLE       "Map 3 Enable"
+    IDS_JW_MAPS             "Maps"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_JW_MAPAMOUNTS       "Map Amounts"
+    IDS_DS_MATTE_SHADOW_PAR "Matte/Shadow Basic Parameters"
+    IDS_DS_SHADOW_BRITE     "Shadow Brightness"
+    IDS_DS_BITMAP_PARAMS    "Bitmap Parameters"
+    IDS_DS_TIME_PARAMS      "Time"
+    IDS_JW_ENABLE           "Enable"
+    IDS_JW_AMOUNT           "Amount"
+    IDS_DS_EFFECTS_CHANNEL  "Effects Channel"
+    IDS_DS_OUTPUT_CDESC     "Output"
+    IDS_DS_MASK_CDESC       "Mask"
+    IDS_JW_FILENAME         "File Name"
+    IDS_JW_SHADERBYNAME     "Shader Name"
+    IDS_JW_SAMPLERBYNAME    "Sampler Name"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_DS_NOISEPARMS       "Noise Parameters"
+    IDS_DS_MIXPARMS         "Mix Parameters"
+    IDS_DS_NOISESIZE        "Noise Size"
+    IDS_DS_OUTAMT           "Output Level"
+    IDS_DS_OUTPUT           "Output"
+    IDS_DS_NOISEAMT         "Noise Amount"
+    IDS_DS_NOISELEV         "Noise Levels"
+    IDS_DS_OUTOFF           "Output Offset"
+    IDS_DS_MAP              "Map"
+    IDS_DS_MASK             "Mask"
+    IDS_MASKPARMS           "Mask Parameters"
+    IDS_DS_COLOR3           "Color 3"
+    IDS_JW_MAP2             "Map 2"
+    IDS_DS_EXPLICIT         "Explicit"
+    IDS_DS_SPHERE_ENV       "Spherical Environment"
+    IDS_DS_CYL_ENV          "Cylindrical Environment"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_DS_XLABEL           "X:"
+    IDS_DS_YLABEL           "Y:"
+    IDS_DS_ZLABEL           "Z:"
+    IDS_DS_ULABEL           "U:"
+    IDS_DS_VLABEL           "V:"
+    IDS_DS_WLABEL           "W:"
+    IDS_DS_BITMAP_TEXTURE_ERR "Bitmap Texture Error"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_RB_NOISE            "Noise"
+    IDS_RB_MULTISUBOBJECT   "Multi/Sub-Object"
+    IDS_RB_MATERIAL2        "Material"
+    IDS_RB_BLENDMAT         "Blend"
+    IDS_RB_BACK             "Back"
+    IDS_RB_FACING           "Facing"
+    IDS_RB_MASK             "Mask"
+    IDS_RB_MATERIALONE      "Material 1"
+    IDS_RB_MATERIALTWO      "Material 2"
+    IDS_RB_MIXAMOUNT        "Mix Amount"
+    IDS_RB_UPPER            "Upper"
+    IDS_RB_LOWER            "Lower"
+    IDS_RB_GRADIENT         "Gradient"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_RB_GRADIENTPARAMS   "Gradient Parameters"
+    IDS_RB_GRADTEMP         "gradientTemp"
+    IDS_RB_COLOR1           "Color 1"
+    IDS_RB_COLOR2           "Color 2"
+    IDS_RB_COLOR3           "Color 3"
+    IDS_RB_SIZE             "Size"
+    IDS_RB_LEVELS           "Levels"
+    IDS_RB_CENTER2          "Color 2 Position"
+    IDS_RB_HIGHTHRESHOLD    "High Threshold"
+    IDS_RB_LOWTHRESHOLD     "Low Threshold"
+    IDS_RB_THRESHOLDSMOOTHING "Threshold Smoothing"
+    IDS_RB_DOUBLESIDED      "Double Sided"
+    IDS_RB_FACINGMAT        "Facing Material"
+    IDS_RB_BACKMATERIAL     "Back Material"
+    IDS_RB_TRANSLUECENCY    "Translucency"
+    IDS_RB_COMPOSITE        "Composite"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_RB_COMPOSITEPARAMS  "Composite Parameters"
+    IDS_RB_MAP2             "Map"
+    IDS_DS_AMOUNT           "Amount"
+    IDS_DS_LOCKAD           "Lock Ambient and Diffuse?"
+    IDS_DS_LOCKCOL          "Lock Colors"
+    IDS_DS_TOPBOTTOM        "Top/Bottom"
+    IDS_DS_TOP              "Top"
+    IDS_DS_BOTTOM           "Bottom"
+    IDS_DS_MARBLE           "Marble"
+    IDS_DS_MIX              "Mix"
+    IDS_DS_MATTE_SHADOW     "Matte/Shadow"
+    IDS_DS_PLACEMENT        "Placement"
+    IDS_DS_BITMAP           "Mayhem bitmap"
+    IDS_DS_SELECT_BMFILE    "Select Bitmap Image File"
+    IDS_DS_ACUBIC_NAME      "Reflect/Refract"
+    IDS_DS_UP               "Up"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_RB_AMOUNT           "Amount"
+    IDS_RB_CURVITURE        "Curvature"
+    IDS_RB_AMPLITUDE        "Amplitude"
+    IDS_RB_WAVELEN          "Wave Length"
+    IDS_RB_PHASE            "Phase"
+    IDS_RB_DECAY            "Decay"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_RB_LOWTHRESH        "Low Threshold"
+    IDS_RB_HIGHTHRESH       "High Threshold"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_DS_DOWN             "Down"
+    IDS_DS_LEFT             "Left"
+    IDS_DS_RIGHT            "Right"
+    IDS_DS_FLATMIRROR       "Flat Mirror"
+    IDS_DS_LOCK_DS          "Lock Diffuse and Specular?"
+    IDS_DS_XYZNAME          "Placement"
+    IDS_DS_RGBTINT          "RGB Tint"
+    IDS_DS_CHECKER          "Checker"
+    IDS_DS_NONE             "None"
+    IDS_DS_TRANS            "Opacity"
+    IDS_RB_NONE             "None"
+    IDS_DS_FILE_NOT_FOUND   "File Not Found: %s"
+    IDS_DS_STANDARD         "R2.5 Standard"
+    IDS_DS_CHECK_BLUR       "Soften"
+    IDS_DS_MTLDESC          "Standard materials and textures (Discreet)"
+    IDS_DS_CLASSTEXMAPS     "Texmaps"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_DS_FRONT            "Front"
+    IDS_DS_BACK             "Back"
+    IDS_DS_NOT_SQUARE       "Cubic map %s is not square."
+    IDS_DS_WRONG_SIZE       "Cubic map %s is not same size as other maps."
+    IDS_DS_REFL_ERROR       "Reflect/Refract Map Error"
+    IDS_DS_SELECT_UPFILE    "Select ""_UP"" File to Write"
+    IDS_DS_CLIPU            "Clip U Offset"
+    IDS_DS_CLIPV            "Clip V Offset"
+    IDS_DS_CLIPW            "Clip U Width"
+    IDS_DS_CLIPH            "Clip V Width"
+    IDS_DS_CROP_TITLE       "Specify Cropping/Placement"
+    IDS_DS_SHAD_COLOR       "Shadow Color"
+    IDS_DS_DYNAMICS         "Dynamics Properties"
+    IDS_DS_BOUNCE           "Bounce Coefficient"
+    IDS_DS_STATFRIC         "Static Friction"
+    IDS_DS_SLIDFRIC         "Sliding Friction"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_DS_PARAMCHG         "Param Change"
+    IDS_NO_EXPOSURE         "No Exposure Control"
+    IDS_EXPOSURE_MATERIAL_CONTROL "Exposure Material Control"
+    IDS_INVERTSELFILLUM     "Exposure Control Invert Self-Illumination"
+    IDS_INVERTREFLECT       "Exposure Control Invert Reflection"
+    IDS_INVERTREFRACT       "Exposure Control Invert Refraction"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_DS_RGBMULT          "RGB Multiply"
+    IDS_DS_RGBMULTPARAMS    "RGB Multiply Parameters"
+    IDS_DS_MASKPARAMS       "Mask Parameters"
+    IDS_DS_TINTPARAMS       "RGB Tint Parameters"
+    IDS_DS_OUTPUTPARAMS     "Output Parameters"
+    IDS_DS_FALLNEAR         "Near Value"
+    IDS_DS_FALLFAR          "Far Value"
+    IDS_DS_FALLOFF          "Falloff"
+    IDS_DS_FALLOFFPARAMS    "Falloff Parameters"
+    IDS_DS_PERVAL           "Perpendicular Value:"
+    IDS_DS_PARVAL           "Parallel Value:"
+    IDS_DS_FVAL             "Towards Value:"
+    IDS_DS_BVAL             "Away Value:"
+    IDS_DS_NSAMT            "Noise Amount"
+    IDS_DS_NSSIZ            "Noise Size"
+    IDS_DS_NSLEV            "Noise Levels"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_DS_NSPHS            "Noise Phase"
+    IDS_DS_VCOL             "Vertex Color"
+    IDS_DS_VCOLPARAMS       "Vertex Color Parameters"
+    IDS_RB_PARTBLUR         "Particle MBlur"
+    IDS_RB_PBLURPARAMS      "Particle Motion Blur Parameters"
+    IDS_RB_SHARP            "Sharpness"
+    IDS_DS_FLATPLATE        "Thin Wall Refraction"
+    IDS_DS_PLATE_PARAMS     "Thin Wall Refraction Parameters"
+    IDS_DS_THICKFACT        "Thickness Offset"
+    IDS_DS_REFRAMT          "Bump Map Effect"
+    IDS_DS_DIMLEV           "Dim Level"
+    IDS_DS_DIMMULT          "Reflection Level"
+    IDS_DS_JITTERAMT        "Jitter Placement"
+    IDS_DS_BLINN            "Blinn"
+    IDS_DS_NEARRANGE        "Near Range"
+    IDS_DS_FARRANGE         "Far Range"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_DS_DISTAMT          "Distortion Amount"
+    IDS_RB_PARTICLEAGE      "Particle Age"
+    IDS_RB_PARTAGEPARAMS    "Particle Age Parameters"
+    IDS_RB_AGE1             "Age 1"
+    IDS_RB_AGE2             "Age 2"
+    IDS_RB_AGE3             "Age 3"
+    IDS_DS_RED              "Red"
+    IDS_DS_GREEN            "Green"
+    IDS_DS_BLUE             "Blue"
+    IDS_DS_SOFTEN           "Soften"
+    IDS_DS_DP               "Displacement"
+    IDS_DS_REFLAMT          "Reflection Amount"
+    IDS_KE_SELFILLUM_CLR    "Self-Illum Color"
+    IDS_KE_NOSUCH_CLR       "No Such Color"
+    IDS_KE_STANDARD2        "Standard"
+    IDS_KE_SHADER           "Shader Basic Parameters"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_KE_SAMPLING         "SuperSampling"
+    IDS_KE_PHONG            "Phong"
+    IDS_KE_BLINN            "Blinn"
+    IDS_KE_METAL            "Metal"
+    IDS_KE_CONSTANT         "Constant"
+    IDS_KE_STDSHADER        "genericShader"
+    IDS_KE_OREN_NAYAR       "Oren-Nayar"
+    IDS_KE_OREN_NAYAR_BLINN "Oren-Nayar-Blinn"
+    IDS_KE_DIFF_LEVEL       "Diffuse Level"
+    IDS_KE_DIFF_ROUGH       "Diff. Roughness"
+    IDS_KE_DIFF_RHO         "Diffuse Reflectivity"
+    IDS_KE_NONE             "None"
+    IDS_DS_ON_BASIC         "Oren-Nayar-Blinn Basic Parameters"
+    IDS_KE_SPEC_LEVEL       "Specular Level"
+    IDS_KE_GLOSSINESS_Y     "Glossiness Y"
+    IDS_KE_GLOSSINESS_X     "Glossiness X"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_KE_WARD_BASIC       "Ward Anisotropic Basic Parameters"
+    IDS_KE_WARD             "Ward Anisotropic"
+    IDS_KE_STRAUSS          "Strauss"
+    IDS_KE_STRAUSS_BASIC    "Strauss Basic Parameters"
+    IDS_KE_METALNESS        "Metalness"
+    IDS_KE_GLOSSINESS       "Glossiness"
+    IDS_KE_AMBIENT_LEV      "Ambient Level"
+    IDS_KE_COLOR            "Color"
+    IDS_KE_ANISOTROPY       "Anisotropy"
+    IDS_KE_ORIENTATION      "Orientation"
+    IDS_KE_SELFILLUM        "Self-Illumination"
+    IDS_KE_ANISO            "Anisotropic"
+    IDS_KE_ANSIO_BASIC      "Anisotropic Basic Parameters"
+    IDS_KE_CONST_PARMS      "Constant Parameters"
+    IDS_KE_PHONG_PARMS      "Phong Parameters"
+    IDS_KE_BLINN_PARMS      "Blinn  Parameters"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_KE_METAL_PARMS      "Metal Parameters"
+    IDS_KE_OREN_PARMS       "Oren Nayar Parameters"
+    IDS_KE_WARD_PARMS       "Ward Parameters"
+    IDS_KE_STRAUSS_PARMS    "Strauss Parameters"
+    IDS_KE_ANISO_PARMS      "Anisotropic Parameters"
+    IDS_KE_CLR1             "Color 1"
+    IDS_KE_CLR2             "Color 2"
+    IDS_KE_GLOSS1           "Glossiness 1"
+    IDS_KE_GLOSS2           "Glossiness 2"
+    IDS_KE_ANISO1           "Anisotropy 1"
+    IDS_KE_ANISO2           "Anisotropy 2"
+    IDS_KE_LEVEL1           "Level 1"
+    IDS_KE_LEVEL2           "Level 2"
+    IDS_KE_MAPCHANNEL       "Map Channel"
+    IDS_KE_SCHLICK          "Schlick Multi-Layer"
+    IDS_KE_SCHLICK_PARMS    "Schlick Parameters "
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_KE_SCHLICK_BASIC    "Schlick Multi-Layer Shader Parameters"
+    IDS_JW_TWOSIDED         "Two-sided"
+    IDS_JW_FACEMAP          "Face Map"
+    IDS_JW_OPACITYTYPE      "Opacity Type"
+    IDS_JW_FILTERMAP        "Filter Map"
+    IDS_JW_FALLOFFTYPE      "Falloff Type"
+    IDS_JW_WIREUNITS        "Wire Units"
+    IDS_JW_APPLYREFDIM      "Apply Reflection Dimming"
+    IDS_JW_PIXELSAMPLER     "Pixel Sampler"
+    IDS_JW_SAMPLERQUAL      "Sampler Quality"
+    IDS_JW_SAMPLERENABLE    "Sampler Enable"
+    IDS_JW_SHADERPARAMS     "Shader Basic Parameters"
+    IDS_PW_ALPHAFROM        "AlphaFrom"
+    IDS_DS_VCOL_CDESC       "Vertex Color"
+    IDS_DS_RGBTINT_CDESC    "RGB Tint"
+    IDS_DS_STANDARD_CDESC   "R2.5 Standard"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_KE_STANDARD2_CDESC  "Standard"
+    IDS_DS_RGBMULT_CDESC    "RGB Multiply"
+    IDS_DS_FLATPLATE_CDESC  "Thin Wall Refraction"
+    IDS_RB_PARTBLUR_CDESC   "Particle MBlur"
+    IDS_RB_PARTICLEAGE_CDESC "Particle Age"
+    IDS_RB_NOISE_CDESC      "Noise"
+    IDS_RB_MULTISUBOBJECT_CDESC "Multi/Sub-Object"
+    IDS_RB_BLENDMAT_CDESC   "Blend"
+    IDS_DS_MIX_CDESC        "Mix"
+    IDS_DS_FLATMIRROR_CDESC "Flat Mirror"
+    IDS_DS_MATTE_SHADOW_CDESC "Matte/Shadow"
+    IDS_DS_MARBLE_CDESC     "Marble"
+    IDS_RB_GRADIENT_CDESC   "Gradient"
+    IDS_DS_FALLOFF_CDESC    "Falloff"
+    IDS_RB_DOUBLESIDED_CDESC "Double Sided"
+    IDS_RB_COMPOSITE_CDESC  "Composite"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_DS_TOPBOTTOM_CDESC  "Top/Bottom"
+    IDS_DS_CHECKER_CDESC    "Checker"
+    IDS_DS_BITMAP_CDESC     "Mayhem bitmap"
+    IDS_DS_ACUBIC_NAME_CDESC "Reflect/Refract"
+    IDS_JW_ADTEXLOCK        "Ambient-Diffuse Texture Lock"
+    IDS_JW_ADLOCK           "Ambient-Diffuse Lock"
+    IDS_JW_DSLOCK           "Diffuse-Specular Lock"
+    IDS_JW_SELFILLUMCOLORON "Use Self Illum Color"
+    IDS_KE_SPEC_CLR1        "Specular Color 1"
+    IDS_KE_SPEC_CLR2        "Specular Color 2"
+    IDS_KE_SPEC_LEVEL1      "Specular Level 1"
+    IDS_KE_SPEC_LEVEL2      "Specular Level 2"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_KE_MULTI_LAYER_BASIC "Multi-Layer Basic Parameters"
+    IDS_KE_MULTI_LAYER      "Multi-Layer"
+    IDS_KE_MULTI_LAYER_PARMS "Multi-Layer Parameters"
+    IDS_PW_DIRECTION        "Direction"
+    IDS_PW_NODE             "Node"
+    IDS_PW_INVERT           "Invert"
+    IDS_PW_OALPHA           "Opaque Alpha"
+    IDS_PW_APPLYATMOS       "ApplyAtmosphere"
+    IDS_PW_ATMOSDEPTH       "AtmossphereDepth"
+    IDS_PW_RECEIVESHADOWS   "RecieveShadows"
+    IDS_PW_AFFECTALPHA      "AffectAlpha"
+    IDS_PW_SPACE            "Space"
+    IDS_PW_USECURVE         "UseCurve"
+    IDS_PW_MASKENABLE       "MaskEnable"
+    IDS_PW_INTERACTIVE      "Interactive"
+    IDS_PW_USEJITTER        "UseJitter"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_PW_APPLY            "Apply"
+    IDS_PW_CROPPLACE        "CropPlace"
+    IDS_PW_FILTERING        "Filtering"
+    IDS_PW_MONOOUTPUT       "MonoOutput"
+    IDS_PW_RGBOUTPUT        "rgbOutput"
+    IDS_PW_ALPHASOURCE      "AlphaSource"
+    IDS_PW_PREMULT          "PreMultAlpha"
+    IDS_PW_STARTTIME        "StartTime"
+    IDS_PW_PLAYBACK         "PlayBackRate"
+    IDS_PW_ENDCONDITION     "EndCondition"
+    IDS_PW_USENVIROMENT     "UseEnviromentMap"
+    IDS_PW_NTHFRAME         "NthFrame"
+    IDS_PW_FRAME            "Frame"
+    IDS_PW_APPLYTOFACEID    "ApplyToFaceID"
+    IDS_PW_FACEID           "FaceID"
+    IDS_PW_DISTORTIONTYPE   "DistortionType"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_PW_NOISETYPE        "NoiseType"
+    IDS_PW_COORDINATES      "Coordinates"
+    IDS_PW_POSITION         "Position"
+    IDS_PW_MIXAMOUNT        "MixAmount"
+    IDS_PW_BLURAMOUNT       "BlurAmount"
+    IDS_PW_DISTORTIONAMOUNT "DistortionAmount"
+    IDS_PW_LEVEL            "Level"
+    IDS_PW_APPLYBLUR        "ApplyBlur"
+    IDS_KE_FACETED          "Faceted"
+    IDS_KE_ORIENTATION1     "Orientation 1"
+    IDS_KE_ORIENTATION2     "Orientation2"
+    IDS_KE_SAMPLERADAPTTHRESH "Adaptive Threshold"
+    IDS_KE_SAMPLERADAPTON   "Adaptive On"
+    IDS_KE_SAMPLERADVANCED  "Advanced Options..."
+    IDS_PW_SOURCE           "Source"
+    IDS_PW_USEATMOSPHERIC   "Use Atmospheric"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_PW_FRAMETYPE        "FrameType"
+    IDS_PW_OUTPUTNAME       "Output Name"
+    IDS_KE_SUBSAMPLE_TEX_ON "SubSample Textures"
+    IDS_KE_BASIC_BLINN      "Blinn Basic Parameters"
+    IDS_KE_BASIC_PHONG      "Phong Basic Parameters"
+    IDS_KE_BASIC_METAL      "Metal Basic Parameters"
+    IDS_PW_MAT              "Mat."
+    IDS_PW_BASE             "Base"
+    IDS_DS_USEREFL          "UseReflMap"
+    IDS_DS_BLEND_PARAMS     "Blend Basic Parameters"
+    IDS_DS_DBLSIDED_PARAMS  "Double Sided Basic Parameters"
+    IDS_DS_MULTI_PARAMS     "Multi/Sub-Object Basic Parameters"
+    IDS_DS_TB_PARAMS        "Top/Bottom Basic Parameters"
+    IDS_DS_MIX_PARAMS       "Mix Parameters"
+    IDS_PW_COMPOSITE_MATERIAL_PARAMS "Composite Basic Parameters"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_KE_SAMPLER_PARAM0   "Optional Param0"
+    IDS_KE_SAMPLER_PARAM1   "Optional Param1"
+    IDS_ACUBIC_SELECT_INPUT_FILE "Select Input Reflection Map"
+    IDS_DS_INDEX            "Index"
+    IDS_DS_DELSUBMAT        "Delete Sub-Material"
+    IDS_KE_SC               "Shadow Clip"
+    IDS_DUP_WARNING         "Warning: Duplicate Material ID: %d\n"
+    IDS_DS_DELMULTSUBMAT    "Delete Multiple Sub-Materials"
+    IDS_DS_ADD_SUBMTL       "Add Sub-Material"
+    IDS_DS_SET_NSUB         "Set Number of Sub Materials"
+    IDS_RB_MULTISUBOBJECT_GMAX "Multi-Material"
+    IDS_RB_MULTISUBOBJECT_CDESC_GMAX "Multi-Material"
+    IDS_PRS_AMOUNT          "Amount"
+    IDS_PRS_ENABLE          "Enable"
+    IDS_KE_TRANSLUCENT_BLUR "Translucent Blur"
+    IDS_KE_TRANSLUCENT_BLUR_MAP "Translucent Blur Map"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_KE_TRANSLUCENT_COLOR "Translucent Color"
+    IDS_KE_TRANSLUCENT_COLOR_MAP "Translucent Color Map"
+    IDS_KE_BAKE_SHELL       "Shell Material"
+    IDS_KE_BAKED_MTL        "Baked Material"
+    IDS_KE_ORIG_MTL         "Original Material"
+    IDS_KE_BAKE_SHELL_PARAMS "Shell Material Parameters"
+    IDS_KE_VP_MTL           "Viewport Material"
+    IDS_KE_REND_MTL         "Rendering Material"
+    IDS_PW_MATIDTIME        "Tie Time to Mat IDs"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_VERTEXCOLOR         "Vertex Color"
+    IDS_MAPCHANNEL          "Map Channel"
+    IDS_JH_SAMPLER_USEGLOBAL "Use Global Settings"
+END
+
+#endif    // Russian resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

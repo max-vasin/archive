@@ -1,0 +1,117 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Engine", "Engine.vcproj", "{B442F27B-B267-4B22-94F0-5012B2210046}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3E5FB883-8063-44F4-8F47-8505CA8912CE} = {3E5FB883-8063-44F4-8F47-8505CA8912CE}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "iff_lib", "iff_lib\iff_lib.vcproj", "{3E5FB883-8063-44F4-8F47-8505CA8912CE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mhmtool", "mhmtool\mhmtool.vcproj", "{FB1E33AC-A4AC-47FE-B66C-5503D3564C32}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mhmmap", "mhmmap\mhmmap.vcproj", "{D39A26EC-6739-4E3A-97C3-90D415E6BC94}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mhmca", "mhmca\mhmca.vcproj", "{D7914229-C313-4DF0-9CE6-57EC9CD68A31}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Brick journey debug|Win32 = Brick journey debug|Win32
+		Debug|Win32 = Debug|Win32
+		DebugFyrex|Win32 = DebugFyrex|Win32
+		Library|Win32 = Library|Win32
+		MAX 8.0 7 sdk release|Win32 = MAX 8.0 7 sdk release|Win32
+		Mitnik gift|Win32 = Mitnik gift|Win32
+		PinkFire|Win32 = PinkFire|Win32
+		Release|Win32 = Release|Win32
+		ReleaseBiokriz|Win32 = ReleaseBiokriz|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B442F27B-B267-4B22-94F0-5012B2210046}.Brick journey debug|Win32.ActiveCfg = Brick journey debug|Win32
+		{B442F27B-B267-4B22-94F0-5012B2210046}.Brick journey debug|Win32.Build.0 = Brick journey debug|Win32
+		{B442F27B-B267-4B22-94F0-5012B2210046}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B442F27B-B267-4B22-94F0-5012B2210046}.Debug|Win32.Build.0 = Debug|Win32
+		{B442F27B-B267-4B22-94F0-5012B2210046}.DebugFyrex|Win32.ActiveCfg = DebugFyrex|Win32
+		{B442F27B-B267-4B22-94F0-5012B2210046}.DebugFyrex|Win32.Build.0 = DebugFyrex|Win32
+		{B442F27B-B267-4B22-94F0-5012B2210046}.Library|Win32.ActiveCfg = Library|Win32
+		{B442F27B-B267-4B22-94F0-5012B2210046}.Library|Win32.Build.0 = Library|Win32
+		{B442F27B-B267-4B22-94F0-5012B2210046}.MAX 8.0 7 sdk release|Win32.ActiveCfg = Library|Win32
+		{B442F27B-B267-4B22-94F0-5012B2210046}.MAX 8.0 7 sdk release|Win32.Build.0 = Library|Win32
+		{B442F27B-B267-4B22-94F0-5012B2210046}.Mitnik gift|Win32.ActiveCfg = Mitnik gift|Win32
+		{B442F27B-B267-4B22-94F0-5012B2210046}.Mitnik gift|Win32.Build.0 = Mitnik gift|Win32
+		{B442F27B-B267-4B22-94F0-5012B2210046}.PinkFire|Win32.ActiveCfg = PinkFire|Win32
+		{B442F27B-B267-4B22-94F0-5012B2210046}.PinkFire|Win32.Build.0 = PinkFire|Win32
+		{B442F27B-B267-4B22-94F0-5012B2210046}.Release|Win32.ActiveCfg = Release|Win32
+		{B442F27B-B267-4B22-94F0-5012B2210046}.Release|Win32.Build.0 = Release|Win32
+		{B442F27B-B267-4B22-94F0-5012B2210046}.ReleaseBiokriz|Win32.ActiveCfg = ReleaseBiokriz|Win32
+		{B442F27B-B267-4B22-94F0-5012B2210046}.ReleaseBiokriz|Win32.Build.0 = ReleaseBiokriz|Win32
+		{3E5FB883-8063-44F4-8F47-8505CA8912CE}.Brick journey debug|Win32.ActiveCfg = DebugFyrex|Win32
+		{3E5FB883-8063-44F4-8F47-8505CA8912CE}.Brick journey debug|Win32.Build.0 = DebugFyrex|Win32
+		{3E5FB883-8063-44F4-8F47-8505CA8912CE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3E5FB883-8063-44F4-8F47-8505CA8912CE}.Debug|Win32.Build.0 = Debug|Win32
+		{3E5FB883-8063-44F4-8F47-8505CA8912CE}.DebugFyrex|Win32.ActiveCfg = DebugFyrex|Win32
+		{3E5FB883-8063-44F4-8F47-8505CA8912CE}.DebugFyrex|Win32.Build.0 = DebugFyrex|Win32
+		{3E5FB883-8063-44F4-8F47-8505CA8912CE}.Library|Win32.ActiveCfg = DebugFyrex|Win32
+		{3E5FB883-8063-44F4-8F47-8505CA8912CE}.Library|Win32.Build.0 = DebugFyrex|Win32
+		{3E5FB883-8063-44F4-8F47-8505CA8912CE}.MAX 8.0 7 sdk release|Win32.ActiveCfg = DebugFyrex|Win32
+		{3E5FB883-8063-44F4-8F47-8505CA8912CE}.MAX 8.0 7 sdk release|Win32.Build.0 = DebugFyrex|Win32
+		{3E5FB883-8063-44F4-8F47-8505CA8912CE}.Mitnik gift|Win32.ActiveCfg = Mitnik gift|Win32
+		{3E5FB883-8063-44F4-8F47-8505CA8912CE}.Mitnik gift|Win32.Build.0 = Mitnik gift|Win32
+		{3E5FB883-8063-44F4-8F47-8505CA8912CE}.PinkFire|Win32.ActiveCfg = DebugFyrex|Win32
+		{3E5FB883-8063-44F4-8F47-8505CA8912CE}.PinkFire|Win32.Build.0 = DebugFyrex|Win32
+		{3E5FB883-8063-44F4-8F47-8505CA8912CE}.Release|Win32.ActiveCfg = Release|Win32
+		{3E5FB883-8063-44F4-8F47-8505CA8912CE}.Release|Win32.Build.0 = Release|Win32
+		{3E5FB883-8063-44F4-8F47-8505CA8912CE}.ReleaseBiokriz|Win32.ActiveCfg = Release|Win32
+		{3E5FB883-8063-44F4-8F47-8505CA8912CE}.ReleaseBiokriz|Win32.Build.0 = Release|Win32
+		{FB1E33AC-A4AC-47FE-B66C-5503D3564C32}.Brick journey debug|Win32.ActiveCfg = MAX 8.0 7 sdk release|Win32
+		{FB1E33AC-A4AC-47FE-B66C-5503D3564C32}.Brick journey debug|Win32.Build.0 = MAX 8.0 7 sdk release|Win32
+		{FB1E33AC-A4AC-47FE-B66C-5503D3564C32}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FB1E33AC-A4AC-47FE-B66C-5503D3564C32}.DebugFyrex|Win32.ActiveCfg = Debug|Win32
+		{FB1E33AC-A4AC-47FE-B66C-5503D3564C32}.DebugFyrex|Win32.Build.0 = Debug|Win32
+		{FB1E33AC-A4AC-47FE-B66C-5503D3564C32}.Library|Win32.ActiveCfg = Release|Win32
+		{FB1E33AC-A4AC-47FE-B66C-5503D3564C32}.Library|Win32.Build.0 = Release|Win32
+		{FB1E33AC-A4AC-47FE-B66C-5503D3564C32}.MAX 8.0 7 sdk release|Win32.ActiveCfg = MAX 8.0 7 sdk release|Win32
+		{FB1E33AC-A4AC-47FE-B66C-5503D3564C32}.MAX 8.0 7 sdk release|Win32.Build.0 = MAX 8.0 7 sdk release|Win32
+		{FB1E33AC-A4AC-47FE-B66C-5503D3564C32}.Mitnik gift|Win32.ActiveCfg = MAX 8.0 7 sdk release|Win32
+		{FB1E33AC-A4AC-47FE-B66C-5503D3564C32}.PinkFire|Win32.ActiveCfg = Release|Win32
+		{FB1E33AC-A4AC-47FE-B66C-5503D3564C32}.Release|Win32.ActiveCfg = Release|Win32
+		{FB1E33AC-A4AC-47FE-B66C-5503D3564C32}.Release|Win32.Build.0 = Release|Win32
+		{FB1E33AC-A4AC-47FE-B66C-5503D3564C32}.ReleaseBiokriz|Win32.ActiveCfg = Release|Win32
+		{FB1E33AC-A4AC-47FE-B66C-5503D3564C32}.ReleaseBiokriz|Win32.Build.0 = Release|Win32
+		{D39A26EC-6739-4E3A-97C3-90D415E6BC94}.Brick journey debug|Win32.ActiveCfg = Release|Win32
+		{D39A26EC-6739-4E3A-97C3-90D415E6BC94}.Brick journey debug|Win32.Build.0 = Release|Win32
+		{D39A26EC-6739-4E3A-97C3-90D415E6BC94}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D39A26EC-6739-4E3A-97C3-90D415E6BC94}.Debug|Win32.Build.0 = Debug|Win32
+		{D39A26EC-6739-4E3A-97C3-90D415E6BC94}.DebugFyrex|Win32.ActiveCfg = Debug|Win32
+		{D39A26EC-6739-4E3A-97C3-90D415E6BC94}.DebugFyrex|Win32.Build.0 = Debug|Win32
+		{D39A26EC-6739-4E3A-97C3-90D415E6BC94}.Library|Win32.ActiveCfg = Release|Win32
+		{D39A26EC-6739-4E3A-97C3-90D415E6BC94}.Library|Win32.Build.0 = Release|Win32
+		{D39A26EC-6739-4E3A-97C3-90D415E6BC94}.MAX 8.0 7 sdk release|Win32.ActiveCfg = Release|Win32
+		{D39A26EC-6739-4E3A-97C3-90D415E6BC94}.MAX 8.0 7 sdk release|Win32.Build.0 = Release|Win32
+		{D39A26EC-6739-4E3A-97C3-90D415E6BC94}.Mitnik gift|Win32.ActiveCfg = Debug|Win32
+		{D39A26EC-6739-4E3A-97C3-90D415E6BC94}.PinkFire|Win32.ActiveCfg = Debug|Win32
+		{D39A26EC-6739-4E3A-97C3-90D415E6BC94}.Release|Win32.ActiveCfg = Release|Win32
+		{D39A26EC-6739-4E3A-97C3-90D415E6BC94}.Release|Win32.Build.0 = Release|Win32
+		{D39A26EC-6739-4E3A-97C3-90D415E6BC94}.ReleaseBiokriz|Win32.ActiveCfg = Release|Win32
+		{D39A26EC-6739-4E3A-97C3-90D415E6BC94}.ReleaseBiokriz|Win32.Build.0 = Release|Win32
+		{D7914229-C313-4DF0-9CE6-57EC9CD68A31}.Brick journey debug|Win32.ActiveCfg = Release|Win32
+		{D7914229-C313-4DF0-9CE6-57EC9CD68A31}.Brick journey debug|Win32.Build.0 = Release|Win32
+		{D7914229-C313-4DF0-9CE6-57EC9CD68A31}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D7914229-C313-4DF0-9CE6-57EC9CD68A31}.Debug|Win32.Build.0 = Debug|Win32
+		{D7914229-C313-4DF0-9CE6-57EC9CD68A31}.DebugFyrex|Win32.ActiveCfg = Debug|Win32
+		{D7914229-C313-4DF0-9CE6-57EC9CD68A31}.DebugFyrex|Win32.Build.0 = Debug|Win32
+		{D7914229-C313-4DF0-9CE6-57EC9CD68A31}.Library|Win32.ActiveCfg = Release|Win32
+		{D7914229-C313-4DF0-9CE6-57EC9CD68A31}.Library|Win32.Build.0 = Release|Win32
+		{D7914229-C313-4DF0-9CE6-57EC9CD68A31}.MAX 8.0 7 sdk release|Win32.ActiveCfg = Release|Win32
+		{D7914229-C313-4DF0-9CE6-57EC9CD68A31}.MAX 8.0 7 sdk release|Win32.Build.0 = Release|Win32
+		{D7914229-C313-4DF0-9CE6-57EC9CD68A31}.Mitnik gift|Win32.ActiveCfg = Debug|Win32
+		{D7914229-C313-4DF0-9CE6-57EC9CD68A31}.PinkFire|Win32.ActiveCfg = Debug|Win32
+		{D7914229-C313-4DF0-9CE6-57EC9CD68A31}.Release|Win32.ActiveCfg = Release|Win32
+		{D7914229-C313-4DF0-9CE6-57EC9CD68A31}.Release|Win32.Build.0 = Release|Win32
+		{D7914229-C313-4DF0-9CE6-57EC9CD68A31}.ReleaseBiokriz|Win32.ActiveCfg = Release|Win32
+		{D7914229-C313-4DF0-9CE6-57EC9CD68A31}.ReleaseBiokriz|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

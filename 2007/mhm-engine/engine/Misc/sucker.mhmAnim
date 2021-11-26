@@ -1,0 +1,35 @@
+###################
+# Animation speed #
+###################
+FPS=30
+#######################
+# Animation keys data #
+#######################
+KeyCount = 6
+#######################
+Key0     = "start"
+Key0_pos = 0
+Key1     = "end"
+Key1_pos = 22
+Key2     = "s_projectile_hit"
+Key2_pos = 22
+Key3     = "e_projectile_hit"
+Key3_pos = 32
+Key4     = "s_force_death"
+Key4_pos = 32
+Key5     = "e_force_death"
+Key5_pos = 62
+######################
+# Subanimations data #
+######################
+RangeCount   = 3
+######################
+Range0       = "run"
+Range0_start = "start"
+Range0_end   = "end"
+Range1       = "projectile_hit"
+Range1_start = "s_projectile_hit"
+Range1_end   = "e_projectile_hit"
+Range2       = "force_death"
+Range2_start = "s_force_death"
+Range2_end   = "e_force_death"

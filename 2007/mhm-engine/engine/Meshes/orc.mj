@@ -1,0 +1,114 @@
+;he Orch  orc\Orch-path.if
+;he Orch_Pelvis  orc\Orch_Pelvis-path.if
+;he Orch_Spine  orc\Orch_Spine-path.if
+;he Orch_Spine1  orc\Orch_Spine1-path.if
+;he Orch_Neck  orc\Orch_Neck-path.if
+;he Orch_Neck1  orc\Orch_Neck1-path.if
+;he Orch_Head  orc\Orch_Head-path.if
+;he Orch_L_Clavicle  orc\Orch_L_Clavicle-path.if
+;he Orch_L_UpperArm  orc\Orch_L_UpperArm-path.if
+;he Orch_L_Forearm  orc\Orch_L_Forearm-path.if
+;he Orch_L_Hand  orc\Orch_L_Hand-path.if
+;he Orch_L_Finger0  orc\Orch_L_Finger0-path.if
+;he Orch_L_Finger01  orc\Orch_L_Finger01-path.if
+;he Orch_L_Finger1  orc\Orch_L_Finger1-path.if
+;he Orch_L_Finger11  orc\Orch_L_Finger11-path.if
+;he Orch_L_Finger2  orc\Orch_L_Finger2-path.if
+;he Orch_L_Finger21  orc\Orch_L_Finger21-path.if
+;he Orch_R_Clavicle  orc\Orch_R_Clavicle-path.if
+;he Orch_R_UpperArm  orc\Orch_R_UpperArm-path.if
+;he Orch_R_Forearm  orc\Orch_R_Forearm-path.if
+;he Orch_R_Hand  orc\Orch_R_Hand-path.if
+;he Orch_R_Finger0  orc\Orch_R_Finger0-path.if
+;he Orch_R_Finger01  orc\Orch_R_Finger01-path.if
+;he Orch_R_Finger1  orc\Orch_R_Finger1-path.if
+;he Orch_R_Finger11  orc\Orch_R_Finger11-path.if
+;he Orch_R_Finger2  orc\Orch_R_Finger2-path.if
+;he Orch_R_Finger21  orc\Orch_R_Finger21-path.if
+;he Orch_L_Thigh  orc\Orch_L_Thigh-path.if
+;he Orch_L_Calf  orc\Orch_L_Calf-path.if
+;he Orch_L_Foot  orc\Orch_L_Foot-path.if
+;he Orch_L_Toe0  orc\Orch_L_Toe0-path.if
+;he Orch_L_Toe1  orc\Orch_L_Toe1-path.if
+;he Orch_L_Toe2  orc\Orch_L_Toe2-path.if
+;he Orch_R_Thigh  orc\Orch_R_Thigh-path.if
+;he Orch_R_Calf  orc\Orch_R_Calf-path.if
+;he Orch_R_Foot  orc\Orch_R_Foot-path.if
+;he Orch_R_Toe0  orc\Orch_R_Toe0-path.if
+;he Orch_R_Toe1  orc\Orch_R_Toe1-path.if
+;he Orch_R_Toe2  orc\Orch_R_Toe2-path.if
+;he Orch_Tail  orc\Orch_Tail-path.if
+;he Orch_Tail1  orc\Orch_Tail1-path.if
+;he Orch_Tail2  orc\Orch_Tail2-path.if
+OrcMesh orc\OrcMesh.if  1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 |type = CreatureMesh|
+;he -Orch_HeadNub  1.000000 0.000000 0.000000 -0.000000 1.000000 0.000000 0.000000 0.000000 1.000000 9.982794 -0.000001 0.000000
+;he -Orch_L_Finger0Nub  1.000000 0.000000 -0.000000 -0.000000 1.000000 0.000000 0.000000 -0.000000 1.000000 3.934684 -0.000001 -0.000000
+;he -Orch_L_Finger1Nub  1.000000 -0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 -0.000000 1.000000 5.477660 -0.000001 0.000000
+;he -Orch_L_Finger2Nub  1.000000 -0.000000 0.000000 0.000000 1.000000 -0.000000 -0.000000 0.000000 1.000000 5.767221 0.000001 -0.000001
+;he -Orch_R_Finger0Nub  1.000000 -0.000000 -0.000000 -0.000000 1.000000 0.000000 -0.000000 0.000000 -1.000000 3.934684 0.000000 -0.000000
+;he -Orch_R_Finger1Nub  1.000000 -0.000000 0.000000 -0.000000 1.000000 -0.000000 -0.000000 -0.000000 -1.000000 5.477656 0.000000 -0.000002
+;he -Orch_R_Finger2Nub  1.000000 -0.000000 -0.000000 -0.000000 1.000000 -0.000000 -0.000000 -0.000000 -1.000000 5.767220 0.000001 -0.000001
+;he -Orch_L_Toe0Nub  1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 -1.000000 13.965718 0.000000 -0.000000
+;he -Orch_L_Toe1Nub  1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 -1.000000 13.892915 -0.000000 0.000000
+;he -Orch_L_Toe2Nub  1.000000 -0.000000 0.000000 0.000000 1.000000 0.000000 -0.000000 0.000000 -1.000000 7.771928 -0.000000 0.000000
+;he -Orch_R_Toe0Nub  1.000000 -0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.000000 13.965718 0.000000 -0.000000
+;he -Orch_R_Toe1Nub  1.000000 -0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.000000 13.892915 -0.000000 -0.000001
+;he -Orch_R_Toe2Nub  1.000000 -0.000000 0.000000 -0.000000 1.000000 0.000000 0.000000 0.000000 1.000000 7.771928 0.000000 0.000001
+;he -Orch_TailNub  0.000796 1.000000 0.000003 1.000000 -0.000796 -0.000000 0.000000 0.000003 -1.000000 20.773945 0.000001 -0.000000
+;he Dummy01  1.000000 0.000000 0.000000 0.000000 -0.000000 1.000000 0.000000 -1.000000 -0.000000 -14.184175 -0.000002 52.618866 |type = BloodParticles|
+;pa Orch_Pelvis Orch
+;pa Orch_Spine Orch_Pelvis
+;pa Orch_Spine1 Orch_Spine
+;pa Orch_Neck Orch_Spine1
+;pa Orch_Neck1 Orch_Neck
+;pa Orch_Head Orch_Neck1
+;pa Orch_L_Clavicle Orch_Neck
+;pa Orch_L_UpperArm Orch_L_Clavicle
+;pa Orch_L_Forearm Orch_L_UpperArm
+;pa Orch_L_Hand Orch_L_Forearm
+;pa Orch_L_Finger0 Orch_L_Hand
+;pa Orch_L_Finger01 Orch_L_Finger0
+;pa Orch_L_Finger1 Orch_L_Hand
+;pa Orch_L_Finger11 Orch_L_Finger1
+;pa Orch_L_Finger2 Orch_L_Hand
+;pa Orch_L_Finger21 Orch_L_Finger2
+;pa Orch_R_Clavicle Orch_Neck
+;pa Orch_R_UpperArm Orch_R_Clavicle
+;pa Orch_R_Forearm Orch_R_UpperArm
+;pa Orch_R_Hand Orch_R_Forearm
+;pa Orch_R_Finger0 Orch_R_Hand
+;pa Orch_R_Finger01 Orch_R_Finger0
+;pa Orch_R_Finger1 Orch_R_Hand
+;pa Orch_R_Finger11 Orch_R_Finger1
+;pa Orch_R_Finger2 Orch_R_Hand
+;pa Orch_R_Finger21 Orch_R_Finger2
+;pa Orch_L_Thigh Orch_Spine
+;pa Orch_L_Calf Orch_L_Thigh
+;pa Orch_L_Foot Orch_L_Calf
+;pa Orch_L_Toe0 Orch_L_Foot
+;pa Orch_L_Toe1 Orch_L_Foot
+;pa Orch_L_Toe2 Orch_L_Foot
+;pa Orch_R_Thigh Orch_Spine
+;pa Orch_R_Calf Orch_R_Thigh
+;pa Orch_R_Foot Orch_R_Calf
+;pa Orch_R_Toe0 Orch_R_Foot
+;pa Orch_R_Toe1 Orch_R_Foot
+;pa Orch_R_Toe2 Orch_R_Foot
+;pa Orch_Tail Orch_Spine
+;pa Orch_Tail1 Orch_Tail
+;pa Orch_Tail2 Orch_Tail1
+;pa -Orch_HeadNub Orch_Head
+;pa -Orch_L_Finger0Nub Orch_L_Finger01
+;pa -Orch_L_Finger1Nub Orch_L_Finger11
+;pa -Orch_L_Finger2Nub Orch_L_Finger21
+;pa -Orch_R_Finger0Nub Orch_R_Finger01
+;pa -Orch_R_Finger1Nub Orch_R_Finger11
+;pa -Orch_R_Finger2Nub Orch_R_Finger21
+;pa -Orch_L_Toe0Nub Orch_L_Toe0
+;pa -Orch_L_Toe1Nub Orch_L_Toe1
+;pa -Orch_L_Toe2Nub Orch_L_Toe2
+;pa -Orch_R_Toe0Nub Orch_R_Toe0
+;pa -Orch_R_Toe1Nub Orch_R_Toe1
+;pa -Orch_R_Toe2Nub Orch_R_Toe2
+;pa -Orch_TailNub Orch_Tail2
+end

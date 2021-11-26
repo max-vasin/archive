@@ -1,0 +1,20 @@
+ParticleMeat01 meat_particles\ParticleMeat01.if  1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 |type = Particle\nParticlesSource = meat_blood.apd|
+ParticleMeat02 meat_particles\ParticleMeat02.if  1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.000000 13.116139 -9.364272 21.927544 |type = Particle\nParticlesSource = meat_blood.apd|
+ParticleMeat03 meat_particles\ParticleMeat03.if  1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.000000 -23.594009 8.479356 1.832185 |type = Particle\nParticlesSource = meat_blood.apd|
+ParticleMeat04 meat_particles\ParticleMeat04.if  1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.000000 -10.327267 -13.787648 -11.350763 |type = Particle\nParticlesSource = meat_blood.apd|
+ParticleMeat05 meat_particles\ParticleMeat05.if  1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.000000 0.902662 -2.851131 -20.912531 |type = Particle\nParticlesSource = meat_blood.apd|
+ParticleMeat06 meat_particles\ParticleMeat06.if  1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.000000 20.361973 -17.243866 1.139135 |type = Particle\nParticlesSource = meat_blood.apd|
+ParticleMeat07 meat_particles\ParticleMeat07.if  1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.000000 -17.730450 23.591005 13.422832 |type = Particle\nParticlesSource = meat_blood.apd|
+ParticleMeat08 meat_particles\ParticleMeat08.if  1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.000000 9.563999 -28.080338 -7.961250 |type = Particle\nParticlesSource = meat_blood.apd|
+ParticleMeat09 meat_particles\ParticleMeat02.if  1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.000000 -28.441223 -9.364272 40.657394 |type = Particle\nParticlesSource = meat_blood.apd|
+ParticleMeat10 meat_particles\ParticleMeat03.if  1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.000000 -24.452236 8.479356 49.988434 |type = Particle\nParticlesSource = meat_blood.apd|
+ParticleMeat11 meat_particles\ParticleMeat04.if  1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.000000 36.979496 4.290709 25.544514 |type = Particle\nParticlesSource = meat_blood.apd|
+ParticleMeat12 meat_particles\ParticleMeat05.if  1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.000000 -38.558647 -2.851131 7.470404 |type = Particle\nParticlesSource = meat_blood.apd|
+ParticleMeat13 meat_particles\ParticleMeat06.if  1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.000000 -29.435764 -17.243866 29.117826 |type = Particle\nParticlesSource = meat_blood.apd|
+ParticleMeat14 meat_particles\ParticleMeat07.if  1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.000000 33.468872 23.591005 19.684711 |type = Particle\nParticlesSource = meat_blood.apd|
+ParticleMeat15 meat_particles\ParticleMeat08.if  1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.000000 25.658611 -28.080338 23.485443 |type = Particle\nParticlesSource = meat_blood.apd|
+ParticleMeat16 meat_particles\ParticleMeat01.if  1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.000000 -0.908422 0.000000 40.435600 |type = Particle\nParticlesSource = meat_blood.apd|
+ParticleMeat17 meat_particles\ParticleMeat02.if  1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.000000 2.217582 -22.464539 58.756432 |type = Particle\nParticlesSource = meat_blood.apd|
+ParticleWing01 meat_particles\ParticleWing01.if  -1.000000 0.000000 0.000000 -0.000000 -1.000000 0.000000 0.000000 0.000000 1.000000 87.699875 -15.832441 13.398594 |type = Particle\nboundscale = 0.3|
+ParticleWing meat_particles\ParticleWing.if  -1.000000 0.000000 0.000000 -0.000000 -1.000000 0.000000 0.000000 0.000000 1.000000 -111.845924 -15.830496 18.937967 |type = Particle\nboundscale = 0.3|
+end
