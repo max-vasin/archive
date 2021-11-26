@@ -1,0 +1,1 @@
+**Angry Beavers** is an iPad game project. All graphics and other resources are stripped. *ios* directory contains the game application, and the **macos** directory contains desktop level editor written in objective-C.
