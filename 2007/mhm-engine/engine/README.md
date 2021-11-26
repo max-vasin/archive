@@ -1,0 +1,1 @@
+Ancient 2D/3D game engine. It uses DirectX 9.0 with very first shaders versions. We don't had mind about modularity and create games (multiple) directly in enigne source folder. There's no chance to make it work again (even compile). There is no serious projects built on it, but many funny ones.
