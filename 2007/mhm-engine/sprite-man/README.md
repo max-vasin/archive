@@ -1,1 +1,1 @@
-An ancient sprite editor/creator used to build game resources. Created used Borland C++ compiler and VCL components.
+An ancient sprite editor/creator used to build game resources. Created used Borland C++ compiler and VCL components. It uses ancient mhm engine library to render viewport.  Doubt, that it's any chance to make it work again.
